@@ -500,6 +500,17 @@ section h3.section-subheading {
     border-left-width: 0;
 }
 
+.timeline-text {
+    margin: auto;
+    padding: 10px;
+
+    height: 50px;
+    width: 50px;
+    background-color: #{{ site.data.template.color.primary }};
+    border: 5px solid #f1f1f1;
+    border-radius: 100%;
+}
+
 .timeline>li .timeline-image {
     z-index: 100;
     position: absolute;
@@ -514,7 +525,7 @@ section h3.section-subheading {
     background-color: #{{ site.data.template.color.primary }};
 }
 
-.timeline>li .timeline-image h4 {
+.timeline>li .timeline-text h4 {
     margin-top: 12px;
     font-size: 10px;
     line-height: 14px;
@@ -582,7 +593,7 @@ section h3.section-subheading {
         margin-left: -50px;
     }
 
-    .timeline>li .timeline-image h4 {
+    .timeline>li .timeline-text h4 {
         margin-top: 16px;
         font-size: 13px;
         line-height: 18px;
