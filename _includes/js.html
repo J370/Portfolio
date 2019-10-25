@@ -1,4 +1,11 @@
- <!-- jQuery Version 1.11.0 -->
+<script>
+    $(window).load(function () {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+    });
+</script>
+
+<!-- jQuery Version 1.11.0 -->
  <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
 
  <!-- Bootstrap Core JavaScript -->
@@ -14,10 +21,3 @@
 
  <!-- Typing JavaScript -->
  <script src="{{ "/js/type.js" | prepend: site.baseurl }}"></script>
-
- <script>
-     $(window).load(function () {
-         // Animate loader off screen
-         $(".se-pre-con").fadeOut("slow");;
-     });
- </script>
