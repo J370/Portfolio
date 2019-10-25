@@ -10,7 +10,6 @@ url: j370.github.io
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-analytics
 
 # Google Analytics
 google_analytics: UA-150899950-1
