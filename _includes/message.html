@@ -10,7 +10,14 @@
 </nav>
 <div class="push"></div>
 <div class="wrapper">
-    Page not found! :(
+    <div class="content">
+        {{ content }}
+    </div>
+    <a href="/">
+        <button class="btn btn-xl" href="/">
+            return
+        </button>
+    </a>
 </div>
 <footer>
     <div class="container">
@@ -30,33 +37,4 @@
         </div>
     </div>
 </footer>
-
-
 </html>
-<style>
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-        background-color: #000;
-    }
-
-    .wrapper {
-        min-height: 86.4%;
-        text-align: center;
-        background-color: #000;
-        color: #fff;
-        /* Equal to height of footer */
-        /* But also accounting for potential margin-bottom of last child */
-        margin-bottom: -90px;
-    }
-
-    .push {
-        height: 100px;
-        background-color: #000;
-    }
-    
-    footer {
-        background-color: #fff;
-    }
-</style>

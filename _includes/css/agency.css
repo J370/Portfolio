@@ -4,10 +4,26 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+html {
+    height: 100%;
+    margin: 0;
+    background-color: #000;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
+    height: 100%;
+    margin: 0;
+}
+
+#award {
+    background-color: #fff
+}
+
+#portfolio {
+    background-color: #E0E0E0;
 }
 
 .text-muted {
@@ -59,14 +75,6 @@ h6 {
 
 .img-centered {
     margin: 0 auto;
-}
-
-.bg-light-gray {
-    background-color: #f7f7f7;
-}
-
-.bg-darkest-gray {
-    background-color: #222;
 }
 
 .btn-primary {
@@ -748,6 +756,7 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    background-color: #fff;
 }
 
 footer span.copyright {
@@ -888,4 +897,21 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+.wrapper {
+    min-height: 86.4%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: -90px;
+}
+
+.push {
+    height: 100px;
+    background-color: #000;
+}
+
+.content p{
+    font-size: 6vw;
 }
