@@ -2,7 +2,7 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
-            <a class="navbar-brand page-scroll" href="/"></a>
+            <a class="navbar-brand page-scroll" href="{{ site.baseurl }}/"></a>
         </div>
         <!-- /.navbar-collapse -->
     </div>
@@ -13,10 +13,8 @@
     <div class="content">
         {{ content }}
     </div>
-    <a href="/">
-        <button class="btn btn-xl" href="/">
-            return
-        </button>
+    <a class="btn btn-xl" href="{{ site.baseurl }}/">
+        return
     </a>
 </div>
 <footer>
