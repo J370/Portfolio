@@ -12,13 +12,13 @@
                 <ul class="timeline">
                     {% for award in site.awards %}
                     {% if award.title == "break" %}
-                    <li>
+                    <li data-aos="fade-in" data-aos-anchor-placement="center-bottom">
                         <div class="timeline-image">
                             <h4>{{award.year}}</h4>
                         </div>
                     </li>
                     {% elsif award.inverse == true %}
-                    <li>
+                    <li data-aos="fade-in" data-aos-anchor-placement="center-bottom">
                         <div class="timeline-text"></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -31,7 +31,7 @@
                         </div>
                     </li>
                     {% else %}
-                    <li class="timeline-inverted">
+                    <li class="timeline-inverted" data-aos="fade-in" data-aos-anchor-placement="center-bottom">
                         <div class="timeline-text"></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -45,7 +45,7 @@
                     </li>
                     {% endif %}
                     {% endfor %}
-                    <li class="timeline-inverted">
+                    <li class="timeline-inverted" data-aos="zoom-in">
                         <div class="timeline-image">
                             <h4>And
                                 <br>More To
