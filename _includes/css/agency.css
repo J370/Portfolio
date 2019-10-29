@@ -205,7 +205,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default img {
-    height: 180%;
+    height: 187%;
+    margin-right: -1vw;
     vertical-align: middle;
 }
 
