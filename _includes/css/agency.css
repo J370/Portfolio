@@ -972,3 +972,15 @@ body {
     margin: auto;
     width: 20vw;
 }
+
+#intro {
+    background-image: url('{{ site.baseurl }}/img/standlean.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
