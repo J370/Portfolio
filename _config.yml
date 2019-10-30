@@ -128,8 +128,7 @@ awards:
 
 # Portfolio
 portfolio:
-  - modal-id: 1
-    title: Service Learning to CDAC @ Redhill and Chong Pang Community Club
+  - title: Service Learning to CDAC @ Redhill and Chong Pang Community Club
     subtitle: Portfolio 2 Assignment
     layout: default
     img: Service.jpg
@@ -139,8 +138,17 @@ portfolio:
     category: Service Learning
     description: As part of portfolio 2, we went to various Community Clubs to teach various technologies.
 
-  - modal-id: 2
-    title: Guardian 2.0
+  - title: Industry Engagement Talks at Google and Alibaba
+    subtitle: Portfolio 2 Assignment
+    layout: default
+    img: Google.jpg
+    thumbnail: Google.jpg
+    project-date: August 2018
+    tools: Tensorflow, Alibaba Cloud
+    category: Robotics
+    description: Learning AI from Google and learn startup skills from Alibaba.
+
+  - title: Guardian 2.0
     subtitle: WRO 2018
     layout: default
     img: WRO.jpg
@@ -150,8 +158,7 @@ portfolio:
     category: Robotics
     description: As part of 2018's WRO competition, my group and I created Guardian 2.0 to tackle issues relating to food.
 
-  - modal-id: 3
-    title: Extreme Control
+  - title: Extreme Control
     subtitle: Portfolio 1 Assignment
     layout: default
     img: ExtremeControl.jpeg
