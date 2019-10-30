@@ -129,13 +129,34 @@ awards:
 # Portfolio
 portfolio:
   - modal-id: 1
+    title: Service Learning to CDAC @ Redhill and Chong Pang Community Club
+    subtitle: Portfolio 2 Assignment
+    layout: default
+    img: Service.jpg
+    thumbnail: Service.jpg
+    project-date: 2019
+    tools: Email, Cashless Payment, Social Media
+    category: Service Learning
+    description: As part of portfolio 2, we went to various Community Clubs to teach various technologies.
+
+  - modal-id: 2
     title: Guardian 2.0
     subtitle: WRO 2018
     layout: default
-    date: 2019-10-28
     img: WRO.jpg
     thumbnail: WRO.jpg
     project-date: August 2018
     tools: HTML, ASP.NET, Firebase, Python, Artificial Inteligence, Lego Mindstorms, Raspberry Pi
     category: Robotics
     description: As part of 2018's WRO competition, my group and I created Guardian 2.0 to tackle issues relating to food.
+
+  - modal-id: 3
+    title: Extreme Control
+    subtitle: Portfolio 1 Assignment
+    layout: default
+    img: ExtremeControl.jpeg
+    thumbnail: ExtremeControl.jpeg
+    project-date: 2018
+    tools: Android Studio, Java
+    category: Android Application
+    description: For the portfolio 1 project, me and a teammate decided to tackle the usage of phone through an application.

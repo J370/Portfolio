@@ -201,12 +201,12 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     display: block;
-    margin: auto;
 }
 
 .navbar-default img {
     height: 187%;
     vertical-align: middle;
+    margin: initial;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -973,7 +973,7 @@ body {
     width: 20vw;
 }
 
-#intro {
+header {
     background-image: url('{{ site.baseurl }}/img/standlean.png');
     background-position: center;
     background-repeat: no-repeat;
