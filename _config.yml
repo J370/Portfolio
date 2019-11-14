@@ -38,6 +38,43 @@ address:
 markdown: kramdown
 permalink: pretty
 
+skills:
+  - name: Java
+    fa: true
+    logo: java
+
+  - name: Swift
+    fa: true
+    logo: swift
+
+  - name: Python
+    fa: true
+    logo: python
+
+  - name: C++
+    fa: false
+    logo: cplusplus
+
+  - name: C#
+    fa: false
+    logo: csharp
+
+  - name: Ruby
+    fa: false
+    logo: ruby
+
+  - name: HTML
+    fa: true
+    logo: html5
+
+  - name: CSS
+    fa: true
+    logo: css3-alt
+
+  - name: JavaScript
+    fa: true
+    logo: js-square
+
 # Awards
 awards:
   - year: 2019
