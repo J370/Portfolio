@@ -205,9 +205,10 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default img {
+    padding: 5%;
     height: inherit;
-    vertical-align: middle;
     margin: initial;
+    vertical-align: middle;
 }
 
 .navbar-default .navbar-brand:hover,
