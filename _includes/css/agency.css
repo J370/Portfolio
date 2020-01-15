@@ -201,6 +201,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     display: block;
+    padding: 20px;
+    margin: -10px 0px 0px -10px;
 }
 
 .navbar-default img {
