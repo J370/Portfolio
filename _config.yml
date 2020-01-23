@@ -170,6 +170,17 @@ awards:
 
 # Portfolio
 portfolio:
+  - modal-id: 5
+    title: Guardian 3.0
+    subtitle: WRO 2019
+    layout: default
+    img: WRO19.jpg
+    thumbnail: WRO19.jpg
+    project-date: 2019
+    tools:  HTML, ASP.NET, Firebase, Python, Artificial Inteligence, Lego Mindstorms, Tetrix, Raspberry Pi
+    category: Robotics
+    description: This year, we participated in the WRO open category once again. Tackling smart nation with our smart recycling bin.
+
   - modal-id: 4
     title: Service Learning to CDAC @ Redhill and Chong Pang Community Club
     subtitle: Portfolio 2 Assignment
@@ -196,12 +207,12 @@ portfolio:
     title: Guardian 2.0
     subtitle: WRO 2018
     layout: default
-    img: WRO.jpg
-    thumbnail: WRO.jpg
+    img: WRO18.jpg
+    thumbnail: WRO18.jpg
     project-date: August 2018
     tools: HTML, ASP.NET, Firebase, Python, Artificial Inteligence, Lego Mindstorms, Raspberry Pi
     category: Robotics
-    description: As part of 2018's WRO competition, my group and I created Guardian 2.0 to tackle issues relating to food.
+    description: For the 2018's WRO competition, my group and I created Guardian 2.0 to tackle issues relating to food.
 
   - modal-id: 1
     title: Extreme Control

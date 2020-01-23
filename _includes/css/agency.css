@@ -47,7 +47,7 @@ body {
 }
 
 .text-primary {
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.primary }} !important;
 }
 
 p {
@@ -455,7 +455,7 @@ section h3.section-subheading {
 
 .timeline>li {
     position: relative;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     min-height: 50px;
 }
 
@@ -902,6 +902,7 @@ body {
 }
 
 .typing {
+    display: inline !important;
     text-align: center;
 }
 
@@ -978,4 +979,16 @@ animation: bounce 2s infinite;
 
 .text-decoration-none {
     text-decoration: none !important;
+}
+
+#intro {
+    font-size: medium;
+}
+
+.navbar-right {
+    flex-direction: row !important;
+}
+
+.navbar .container {
+    display: inline !important;
 }
