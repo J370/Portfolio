@@ -196,7 +196,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #000;
+    background-color: #000 !important;
 }
 
 .navbar-default .navbar-brand {
@@ -265,14 +265,6 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
-@media(min-width: 800px) {
-    header {
-        text-align: center;
-        color: #fff;
-        background-color: #000;
-    }
-}
-
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -304,11 +296,12 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-color: #000;
+    height: 100vh;
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 30vh !important;
+    padding-bottom: 5vh !important;
 }
 
 header .intro-text .intro-lead-in {
@@ -328,32 +321,6 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-}
-
-@media(min-width:1065px) {
-    header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
-    }
-
-    header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
-        color: #{{ site.data.template.color.primary }};
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
-    }
-
-    header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: {{ site.data.template.font.primary }};
-        color: #{{ site.data.template.color.primary }};
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
-    }
 }
 
 section {
