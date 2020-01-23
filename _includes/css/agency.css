@@ -375,6 +375,10 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+#platform {
+    margin-bottom: 0px;
+}
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
@@ -985,4 +989,22 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.bounce {
+-moz-animation: bounce 2s infinite;
+-webkit-animation: bounce 2s infinite;
+animation: bounce 2s infinite;
+}
+  
+@keyframes bounce {
+0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+}
+40% {
+    transform: translateY(30px);
+}
+60% {
+    transform: translateY(15px);
+}
 }

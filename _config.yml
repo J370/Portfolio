@@ -19,6 +19,8 @@ google_analytics: UA-150899950-1
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: whatsapp
+    url: https://wa.me/6583111007
   - title: linkedin
     url: https://linkedin.com/in/jet-ong
   - title: github
