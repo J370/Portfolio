@@ -1008,3 +1008,7 @@ animation: bounce 2s infinite;
     transform: translateY(15px);
 }
 }
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
