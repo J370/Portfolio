@@ -995,5 +995,17 @@ animation: bounce 2s infinite;
 
 #latlong {
     margin-top: -10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+}
+
+.work {
+    width: 30%;
+}
+
+#plus {
+    position: absolute;
+    left: 50%;
+    padding-top: 3.5%;
+    transform: translate(-50%, 0%);
+    font-size: 3em;
 }
