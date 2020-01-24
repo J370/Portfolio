@@ -992,3 +992,8 @@ animation: bounce 2s infinite;
 .navbar .container {
     display: inline !important;
 }
+
+#latlong {
+    margin-top: -10%;
+    margin-bottom: 10%;
+}
