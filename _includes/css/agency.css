@@ -1009,3 +1009,8 @@ animation: bounce 2s infinite;
     transform: translate(-50%, 0%);
     font-size: 3em;
 }
+
+.work-link {
+    color: #fff;
+    font-size: xx-large;
+}
