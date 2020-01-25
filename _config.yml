@@ -172,7 +172,7 @@ awards:
 
 # Portfolio
 portfolio:
-  - modal-id: 6
+  - modal-id: 7
     title: Unbiased
     subtitle: Portfolio 2 Assignment
     layout: default
@@ -181,6 +181,16 @@ portfolio:
     tools:  HTML, ASP.NET, Firebase, Python, Artificial Inteligence
     category: Web Application
     description: This year, we participated in the WRO open category once again. Tackling smart nation with our smart recycling bin.
+
+  - modal-id: 6
+    title: ECycle
+    subtitle: Mobile Application Development 1 Assignment
+    layout: default
+    img: EcycleLogo
+    project-date: 2019
+    tools:  Android Studio, Java
+    category: Android Application
+    description: The amount of ewaste we waste a year amounts to the entire great wall of China! Find out what you can do here
 
   - modal-id: 5
     title: Guardian 3.0
