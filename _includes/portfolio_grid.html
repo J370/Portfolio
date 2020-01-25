@@ -15,7 +15,11 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered lazyload" alt="">
+                    <picture>
+                        <source type="image/webp" srcset="img/portfolio/{{ post.img }}.webp" class="img-responsive img-centered" alt="{{ post.alt }}">
+                        <source type="image/png" srcset="img/portfolio/{{ post.img }}.png" class="img-responsive img-centered" alt="{{ post.alt }}">
+                        <img src="img/portfolio/{{ post.img }}.png" class="img-responsive img-centered" alt="{{ post.alt }}">
+                    </picture>
                 </a>
                 <div class="portfolio-caption">
                     <h4>{{ post.title }}</h4>

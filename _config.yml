@@ -176,8 +176,7 @@ portfolio:
     title: Unbiased
     subtitle: Portfolio 2 Assignment
     layout: default
-    img: unbiased.png
-    thumbnail: unbiased.png
+    img: unbiased
     project-date: 2019
     tools:  HTML, ASP.NET, Firebase, Python, Artificial Inteligence
     category: Web Application
@@ -187,8 +186,7 @@ portfolio:
     title: Guardian 3.0
     subtitle: World Robot Olympiad(WRO) 2019
     layout: default
-    img: smartcities.png
-    thumbnail: smartcities.png
+    img: smartcities
     project-date: 2019
     tools:  HTML, ASP.NET, Firebase, Python, Artificial Inteligence, Lego Mindstorms, Tetrix, Raspberry Pi
     category: Robotics
@@ -198,8 +196,7 @@ portfolio:
     title: Service Learning to CDAC @ Redhill and Chong Pang Community Club
     subtitle: Fundamentals for IT Professionals 2 Assignment
     layout: default
-    img: Service.jpg
-    thumbnail: Service.jpg
+    img: Service
     project-date: 2019
     tools: Email, Cashless Payment, Social Media
     category: Service Learning
@@ -209,8 +206,7 @@ portfolio:
     title: Industry Engagement Talks at Google and Alibaba
     subtitle: Fundamentals for IT Professionals 2 Assignment
     layout: default
-    img: Google.jpg
-    thumbnail: Google.jpg
+    img: Google
     project-date: August 2018
     tools: Tensorflow, Alibaba Cloud
     category: Service Learning
@@ -220,8 +216,7 @@ portfolio:
     title: Guardian 2.0
     subtitle: World Robot Olympiad(WRO) 2018
     layout: default
-    img: foodmatters.png
-    thumbnail: foodmatters.png
+    img: foodmatters
     project-date: August 2018
     tools: HTML, ASP.NET, Firebase, Python, Artificial Inteligence, Lego Mindstorms, Raspberry Pi
     category: Robotics
@@ -231,8 +226,7 @@ portfolio:
     title: Extreme Control
     subtitle: Portfolio 1 Assignment
     layout: default
-    img: ExtremeControl.jpeg
-    thumbnail: ExtremeControl.jpeg
+    img: ExtremeControl
     project-date: 2018
     tools: Android Studio, Java
     category: Android Application
