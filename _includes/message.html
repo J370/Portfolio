@@ -1,7 +1,11 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <a class="navbar-brand page-scroll" href="{{ site.baseurl }}/">
-            <img src="{{ site.baseurl }}/img/header-bg.png">
+            <picture>
+                <source type="image/webp" srcset="{{ site.baseurl }}/img/header-bg.webp 960w, {{ site.baseurl }}/img/header-bg.webp 317w">
+                <source type="image/png" srcset="{{ site.baseurl }}/img/header-bg.png">
+                <img src="{{ site.baseurl }}/img/header-bg.png" alt="Jet's Logo">
+            </picture>
         </a>
         <!-- /.navbar-collapse -->
     </div>
