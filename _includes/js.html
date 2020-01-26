@@ -20,9 +20,10 @@
 <!-- Animate on Scroll -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-    AOS.init({
-        disable: 'phone, mobile',
-    });
+    if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
+        $('head').append('<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" defer>');
+    }
+    AOS.init();
 </script>
 
 <!-- Custom Theme JavaScript -->
@@ -41,4 +42,5 @@
     });
 </script>
 
-<script data-ad-client="ca-pub-1832871158835645" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
+<script data-ad-client="ca-pub-1832871158835645" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
