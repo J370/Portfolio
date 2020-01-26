@@ -20,7 +20,10 @@
 <!-- Animate on Scroll -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script defer>
-    AOS.init();
+    if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)))
+    {
+        AOS.init();
+    }
 </script>
 
 <!-- Custom Theme JavaScript -->
