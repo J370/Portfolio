@@ -181,6 +181,7 @@ portfolio:
     tools:  HTML, ASP.NET, Firebase, Python, Artificial Inteligence
     category: Web Application
     description: This year, we participated in the WRO open category once again. Tackling smart nation with our smart recycling bin.
+    url: 
 
   - modal-id: 6
     title: ECycle
@@ -241,3 +242,4 @@ portfolio:
     tools: Android Studio, Java
     category: Android Application
     description: For the portfolio 1 project, me and a teammate decided to tackle the usage of phone through an application.
+    url: categories#Portfolio-1

@@ -43,7 +43,7 @@ body {
 }
 
 .text-muted {
-    color: #{{ site.data.template.color.muted }};
+    color: #{{ site.data.template.color.muted }} !important;
 }
 
 .text-primary {
