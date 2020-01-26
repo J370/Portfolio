@@ -885,7 +885,7 @@ body {
 }
 
 .wrapper {
-    min-height: 86.4%;
+    min-height: 80vh;
     text-align: center;
     background-color: #000;
     color: #fff;
