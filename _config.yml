@@ -5,7 +5,6 @@ baseurl:
 title: Jet Ong
 email: s10184291@connect.np.edu.sg
 description: "Jet Ong's portfolio"
-url: j370.github.io
 
 exclude:
   - .jekyll-cache
