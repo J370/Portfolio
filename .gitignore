@@ -39,3 +39,4 @@ Icon
 .jekyll-cache
 Gemfile.lock
 node_modules
+package-lock.json
