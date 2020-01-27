@@ -38,5 +38,4 @@ $('div.modal').on('show.bs.modal', function() {
 
 $(document).ready(function() {
     $(window).scrollTop(0);
-    lazyload();
 });

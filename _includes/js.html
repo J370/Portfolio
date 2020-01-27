@@ -6,8 +6,8 @@
     </style>
 </noscript>
 
-<!-- jQuery Version 1.11.0 -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
@@ -36,9 +36,9 @@
 <!-- <script src="https://kit.fontawesome.com/3ad3464b6e.js" crossorigin="anonymous" defer></script> -->
 
 <script>
-    $(window).load(function () {
+    $(window).ready(function () {
         // Animate loader off screen
-        $(".se-pre-con").fadeOut("slow");;
+        $(".se-pre-con").fadeOut("fast");;
     });
 </script>
 
