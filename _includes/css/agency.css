@@ -669,7 +669,7 @@ section h3.section-subheading {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.webp'), url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
   
@@ -957,7 +957,7 @@ body {
 }
 
 header {
-    background-image: url('{{ site.baseurl }}/img/standlean.webp'), url('{{ site.baseurl }}/img/standlean.png');
+    background-image: url('{{ site.baseurl }}/img/standlean.png');
     background-position: center;
     background-repeat: no-repeat;
   
