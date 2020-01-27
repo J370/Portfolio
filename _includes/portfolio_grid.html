@@ -15,11 +15,7 @@
                             <span class="icon-plus"></span>
                         </div>
                     </div>
-                    <picture>
-                        <source type="image/webp" srcset="img/portfolio/{{ post.img }}.webp">
-                        <source type="image/png" srcset="img/portfolio/{{ post.img }}.png">
-                        <img src="img/portfolio/{{ post.img }}.png" class="img-responsive img-centered" alt="{{ post.img }}">
-                    </picture>
+                    {% picture img/portfolio/{{ post.img }}.png --img class="img-responsive img-centered" -alt {{ post.img }} %}
                 </a>
                 <div class="portfolio-caption">
                     <h4>{{ post.title }}</h4>
