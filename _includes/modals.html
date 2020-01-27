@@ -14,11 +14,7 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <picture>
-                                <source type="image/webp" srcset="img/portfolio/{{ post.img }}.webp">
-                                <source type="image/png" srcset="img/portfolio/{{ post.img }}.png">
-                                <img src="img/portfolio/{{ post.img }}.png" class="img-responsive img-centered" alt="{{ post.img }}">
-                            </picture>
+                            {% picture img/portfolio/{{ post.img }}.png --img class="img-responsive img-centered" --alt {{ post.img }} %}
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Tools Use:
