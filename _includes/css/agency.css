@@ -1027,3 +1027,8 @@ animation: bounce 2s infinite;
 .icon-plus {
     font-size: 3em;
 }
+
+.details {
+    font-size: 1.5em;
+    margin-top: 1vh;
+}
