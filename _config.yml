@@ -72,11 +72,11 @@ skills:
 
   - name: CSS
     fa: true
-    logo: css3-alt
+    logo: css3
 
   - name: JavaScript
     fa: true
-    logo: js-square
+    logo: javascript
 
 # Awards
 awards:

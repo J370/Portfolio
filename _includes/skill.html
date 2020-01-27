@@ -16,15 +16,14 @@
             {% for skill in site.skills %}
             {% if skill.fa == true %}
             <div class="col-md-4">
-                <span class="fa-stack fa-4x" data-aos="zoom-in-down">
-                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fab fa-{{ skill.logo }} fa-stack-1x fa-inverse"></i>
+                <span class="logo" data-aos="zoom-in-down">
+                    <span class="icon-{{ skill.logo }} fa-stack-1x fa-inverse"></span>
                 </span>
                 <h4 class="service-heading">{{ skill.name }}</h4>
             </div>
             {% else %}
             <div class="col-md-4">
-                <span class="fa-stack fa-4x logo" data-aos="zoom-in-down">
+                <span class="logo" data-aos="zoom-in-down">
                     <i class="devicon-{{ skill.logo }}-plain"></i>
                 </span>
                 <h4 class="service-heading">{{ skill.name }}</h4>
