@@ -8,8 +8,13 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <form netlify>
-                    <input type="text" name="_gotcha" style="display:none" />
+                <form method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <div hidden aria-hidden="true">
+                        <label>
+                            Don’t fill this out if you're human:
+                            <input name="bot-field" />
+                        </label>
+                    </div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="control-group form-group">
@@ -42,7 +47,8 @@
                     </div>
                 </form>
                 <div class="text-center">
-                    <h3 id="platform" class="section-subheading text-primary">Or find me on your fravourite platform!</h3>
+                    <h3 id="platform" class="section-subheading text-primary">Or find me on your fravourite platform!
+                    </h3>
                 </div>
                 <div class="text-center bounce">
                     <i class="icon-chevron-down text-primary"></i>
