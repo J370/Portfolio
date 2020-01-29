@@ -14,7 +14,7 @@
             <div class="col-md-4">
                 <ul class="list-inline social-buttons">
                     {% for network in site.social %}
-                    <li><a href="{{ network.url }}" target="_blank" rel="noreferrer"><span class="icon-{{ network.title }}"></span></a>
+                    <li><a  aria-label="{{ network.title }}" href="{{ network.url }}" target="_blank" rel="noreferrer"><span class="icon-{{ network.title }}"></span></a>
                     </li>
                     {% endfor %}
                 </ul>
