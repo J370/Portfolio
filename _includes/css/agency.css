@@ -928,7 +928,7 @@ body {
     color: white;
 }
 
-#skill {
+.skill {
     color: white;
 }
 
@@ -990,7 +990,7 @@ animation: bounce 2s infinite;
     text-decoration: none !important;
 }
 
-#intro {
+.meet {
     font-size: medium;
 }
 
