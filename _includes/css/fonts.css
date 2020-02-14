@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('{{ site.baseurl }}/fonts/fonts/icomoon.eot?gpyt8h');
-  src:  url('{{ site.baseurl }}/fonts/fonts/icomoon.eot?gpyt8h#iefix') format('embedded-opentype'),
-    url('{{ site.baseurl }}/fonts/fonts/icomoon.ttf?gpyt8h') format('truetype'),
-    url('{{ site.baseurl }}/fonts/fonts/icomoon.woff?gpyt8h') format('woff'),
-    url('{{ site.baseurl }}/fonts/fonts/icomoon.svg?gpyt8h#icomoon') format('svg');
+  src:  url('{{ site.baseurl }}/fonts/icomoon.eot?wocqqp');
+  src:  url('{{ site.baseurl }}/fonts/icomoon.eot?wocqqp#iefix') format('embedded-opentype'),
+    url('{{ site.baseurl }}/fonts/icomoon.ttf?wocqqp') format('truetype'),
+    url('{{ site.baseurl }}/fonts/icomoon.woff?wocqqp') format('woff'),
+    url('{{ site.baseurl }}/fonts/icomoon.svg?wocqqp#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 span::before {
@@ -29,6 +29,10 @@ span::before {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*Fonts===========================*/
+.icon-reddit:before {
+  content: "\e90b";
+}
 .icon-plus:before {
   content: "\e90a";
 }
