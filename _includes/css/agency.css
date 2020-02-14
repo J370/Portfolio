@@ -13,13 +13,13 @@
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('{{ site.baseurl }}/img/Preloader.gif') center no-repeat #{{ site.data.template.color.white }};
+    background: url('{{ site.baseurl }}/img/Preloader.gif') center no-repeat #fff;
 }
 
 html {
     height: 100%;
     margin: 0;
-    background-color: #{{ site.data.template.color.black }};
+    background-color: #000;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
 }
 
 #award {
-    background-color: #{{ site.data.template.color.white }}
+    background-color: #fff
 }
 
 #portfolio {
@@ -98,7 +98,7 @@ h6 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #{{ site.data.template.color.white }};
+    color: #fff;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -108,7 +108,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     border-color: #{{ site.data.template.color.primary }};
-    color: #{{ site.data.template.color.white }};
+    color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -139,7 +139,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary .badge {
     color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.white }};
+    background-color: #fff;
 }
 
 .btn-xl {
@@ -150,7 +150,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
-    color: #{{ site.data.template.color.white }};
+    color: #fff;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -160,7 +160,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border-color: #{{ site.data.template.color.primary }};
-    color: #{{ site.data.template.color.white }};
+    color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -191,12 +191,12 @@ fieldset[disabled] .btn-xl.active {
 
 .btn-xl .badge {
     color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.white }};
+    background-color: #fff;
 }
 
 .navbar-default {
     border-color: transparent;
-    background-color: #{{ site.data.template.color.black }} !important;
+    background-color: #000 !important;
 }
 
 .navbar-default .navbar-brand {
@@ -232,7 +232,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #{{ site.data.template.color.white }};
+    background-color: #fff;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -245,7 +245,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #{{ site.data.template.color.white }};
+    color: #fff;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -259,13 +259,13 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #{{ site.data.template.color.white }};
+    color: #fff;
     background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #{{ site.data.template.color.white }};
+    color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -291,22 +291,21 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #{{ site.data.template.color.black }};
+        background-color: #000;
     }
 }
 
 header {
     text-align: center;
-    color: #{{ site.data.template.color.white }};
+    color: #fff;
     background-attachment: scroll;
-    background-color: #{{ site.data.template.color.black }};
+    background-color: #000;
     height: 100vh;
 }
 
 header .intro-text {
     padding-top: 30vh !important;
     padding-bottom: 5vh !important;
-    color: #{{ site.data.template.color.black }};
 }
 
 header .intro-text .intro-lead-in {
@@ -360,7 +359,7 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
-    color: #{{ site.data.template.color.white }};
+    color: #fff;
 }
 
 #portfolio .portfolio-item {
@@ -399,7 +398,7 @@ section h3.section-subheading {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #{{ site.data.template.color.white }};
+    color: #fff;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -416,7 +415,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #{{ site.data.template.color.white }};
+    background-color: #fff;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -507,7 +506,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     font-size: 1vw;
-    color: #{{ site.data.template.color.white }};
+    color: #fff;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -521,7 +520,7 @@ section h3.section-subheading {
     margin-left: 25px;
     border-radius: 100%;
     text-align: center;
-    color: #{{ site.data.template.color.white }};
+    color: #fff;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -682,7 +681,7 @@ section#contact {
 }
 
 section#contact .section-heading {
-    color: #{{ site.data.template.color.white }};
+    color: #fff;
 }
 
 section#contact .form-group {
@@ -695,12 +694,10 @@ section#contact .form-group textarea {
 }
 
 section#contact .form-group input.form-control {
-    color: {{ site.data.template.color.white }};
     height: auto;
 }
 
 section#contact .form-group textarea.form-control {
-    color: {{ site.data.template.color.white }};
     height: 236px;
 }
 
@@ -744,7 +741,7 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
-    background-color: #{{ site.data.template.color.white }};
+    background-color: #fff;
 }
 
 footer span.copyright {
@@ -890,14 +887,14 @@ body {
 .wrapper {
     min-height: 80vh;
     text-align: center;
-    background-color: #{{ site.data.template.color.black }};
-    color: #{{ site.data.template.color.white }};
+    background-color: #000;
+    color: #fff;
     margin-bottom: -90px;
 }
 
 .push {
     height: 100px;
-    background-color: #{{ site.data.template.color.black }};
+    background-color: #000;
 }
 
 .content p{
@@ -905,7 +902,7 @@ body {
 }
 
 .wrap {
-    color: {{ site.data.template.color.white }} !important;
+    color: white !important;
 }
 
 .typing {
@@ -928,17 +925,17 @@ body {
 }
 
 .logo i {
-    color: {{ site.data.template.color.white }};
+    color: white;
 }
 
 .skills {
-    color: {{ site.data.template.color.white }};
+    color: white;
 }
 
 #moreabout {
-    background-color: #{{ site.data.template.color.white }};
+    background-color: #fff;
     color: #fed136;
-    border-color: #{{ site.data.template.color.white }};
+    border-color: #fff;
     display: inline;
     margin: auto;
 }
@@ -1023,7 +1020,7 @@ animation: bounce 2s infinite;
 }
 
 .work-link {
-    color: #{{ site.data.template.color.white }};
+    color: #fff;
     font-size: xx-large;
 }
 
