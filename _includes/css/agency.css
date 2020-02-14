@@ -19,7 +19,7 @@
 html {
     height: 100%;
     margin: 0;
-    background-color: #000;
+    background-color: #{{ site.data.template.color.black }};
 }
 
 body {
@@ -196,7 +196,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #000 !important;
+    background-color: #{{ site.data.template.color.black }} !important;
 }
 
 .navbar-default .navbar-brand {
@@ -291,7 +291,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #000;
+        background-color: #{{ site.data.template.color.black }};
     }
 }
 
@@ -299,7 +299,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-color: #000;
+    background-color: #{{ site.data.template.color.black }};
     height: 100vh;
 }
 
@@ -694,12 +694,12 @@ section#contact .form-group textarea {
 }
 
 section#contact .form-group input.form-control {
-    color: white;
+    color: {{ site.data.template.color.white }};
     height: auto;
 }
 
 section#contact .form-group textarea.form-control {
-    color: white;
+    color: {{ site.data.template.color.white }};
     height: 236px;
 }
 
@@ -889,14 +889,14 @@ body {
 .wrapper {
     min-height: 80vh;
     text-align: center;
-    background-color: #000;
+    background-color: #{{ site.data.template.color.black }};
     color: #fff;
     margin-bottom: -90px;
 }
 
 .push {
     height: 100px;
-    background-color: #000;
+    background-color: #{{ site.data.template.color.black }};
 }
 
 .content p{
@@ -904,7 +904,7 @@ body {
 }
 
 .wrap {
-    color: white !important;
+    color: {{ site.data.template.color.white }} !important;
 }
 
 .typing {
@@ -927,11 +927,11 @@ body {
 }
 
 .logo i {
-    color: white;
+    color: {{ site.data.template.color.white }};
 }
 
 .skills {
-    color: white;
+    color: {{ site.data.template.color.white }};
 }
 
 #moreabout {
