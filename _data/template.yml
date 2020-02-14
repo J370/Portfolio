@@ -2,10 +2,10 @@
 color:
   white: fff
   black: 000
-  primary: ff5252
-  secondary: ff1744
-  secondary-dark: c4001d
-  muted: 555
+  primary: fed136
+  secondary: fec503   
+  secondary-dark: 222
+  muted: 333
 
 # Font Families
 font:
