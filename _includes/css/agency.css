@@ -694,10 +694,12 @@ section#contact .form-group textarea {
 }
 
 section#contact .form-group input.form-control {
+    color: white;
     height: auto;
 }
 
 section#contact .form-group textarea.form-control {
+    color: white;
     height: 236px;
 }
 
