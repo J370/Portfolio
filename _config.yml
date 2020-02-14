@@ -22,15 +22,16 @@ social:
     url: https://wa.me/6583111007
   - title: skype
     url: skype:jetong01?userinfo
-  - title: linkedin
-    url: https://linkedin.com/in/jet-ong
+  # - title: linkedin
+  #   url: https://linkedin.com/in/jet-ong
   - title: github
-    url: http://github.com/j370
+    url: https://github.com/j370
   - title: bitbucket 
     url: https://bitbucket.org/%7Ba33d1089-188a-431d-9530-3df8cb71e7a4%7D/
   - title: stack-overflow
     url: https://stackoverflow.com/users/6747179/j370
-  
+  - title: reddit
+    url: https://www.reddit.com/user/j370s
 
 # Postal address (add as many lines as necessary)
 address:
