@@ -668,6 +668,7 @@ section h3.section-subheading {
 }
 
 section#contact {
+    color: white;
     background-color: #222;
     background-image: url('{{ site.baseurl }}/img/map-image.webp');
     background-position: center;
