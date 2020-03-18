@@ -1,4 +1,5 @@
-{% include css/bootstrap.min.css %}
+{% include css/critical.css %}
+/* {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
-{% include css/fonts.css %}
+{% include css/fonts.css %} */
 {{ content }}
