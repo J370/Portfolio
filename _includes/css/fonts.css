@@ -1,6 +1,14 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('{{ site.baseurl }}/fonts/icomoon.woff?u5ziv8');
+  src: url('{{ site.baseurl }}/fonts/icomoon.woff?u5ziv8');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'devicon';
+  src: url(https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/fonts/devicon.woff?-hdf3wh);
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -25,7 +33,32 @@ span::before {
   -moz-osx-font-smoothing: grayscale;
 }
 
+[class*=" devicon-"], [class^=devicon-]{
+  font-family:devicon;
+  speak:none;
+  font-style:normal;
+  font-weight:400;
+  font-variant:normal;
+  text-transform:none;
+  line-height:1;
+  
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale
+}
+
 /*Fonts===========================*/
+.devicon-cplusplus-plain:before {
+  content:"\e635"
+}
+
+.devicon-csharp-plain:before {
+  content:"\e637"
+}
+
+.devicon-ruby-plain:before {
+  content:"\ebca"
+}
+
 .icon-instagram:before {
   content: "\e90c";
 }
