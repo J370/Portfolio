@@ -9,7 +9,7 @@
         <div class="row">
             {% for post in site.portfolio %}
             <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolio{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                <a href="#portfolio{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" data-target="#portfolio{{ post.modal-id }}">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <span class="icon-plus"></span>
