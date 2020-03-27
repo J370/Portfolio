@@ -15,6 +15,12 @@ $(function() {
     });
 });
 
-$(document).ready(function() {
-    $(window).scrollTop(0);
+$(document).on("scroll", function(){
+    if($(document).scrollTop() > 100){
+      $("header").addClass("shrink");
+    }
+    else
+    {
+        $("header").removeClass("shrink");
+    }
 });

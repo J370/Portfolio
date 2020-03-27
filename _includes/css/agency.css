@@ -530,10 +530,6 @@ section h3.section-subheading {
 }
 
 @media(min-width:768px) {
-    .navbar-default {
-        padding: 25px 0;
-    }
-
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
@@ -570,7 +566,15 @@ section h3.section-subheading {
     }
 }
 
-@media(min-width:990px) {
+@media(min-width:992px) {
+    .navbar-default {
+        padding: 25px 0;
+    }
+
+    .shrink {
+        padding: 20px 0;
+    }
+
     .timeline>li .timeline-panel {
         padding: 0 20px 20px;
     }
