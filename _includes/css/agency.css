@@ -395,12 +395,6 @@ section h3.section-subheading {
     z-index: 2;
 }
 
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
-}
-
 .timeline {
     position: relative;
     padding: 0;
@@ -527,6 +521,14 @@ section h3.section-subheading {
 }
 
 @media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+    }
+
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+
     .timeline:before {
         left: 50%;
     }
