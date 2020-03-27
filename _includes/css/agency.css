@@ -261,32 +261,6 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
-@media(min-width:768px) {
-    .navbar-default {
-        padding: 25px 0;
-        border: 0;
-        background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-default .navbar-brand {
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
-    }
-
-    .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #000;
-    }
-}
-
 header {
     text-align: center;
     color: #fff;
@@ -341,12 +315,6 @@ section h3.section-subheading {
 
 #platform {
     margin-bottom: 0px;
-}
-
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
 }
 
 .service-heading {
@@ -452,8 +420,6 @@ section h3.section-subheading {
 
 .timeline>li {
     position: relative;
-    /* margin-bottom: 50px; */
-    min-height: 150px;
 }
 
 .timeline>li:before,
@@ -495,8 +461,8 @@ section h3.section-subheading {
     z-index: 100;
     position: absolute;
     left: 0;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     margin-left: 0;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
@@ -558,12 +524,6 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
-@media(min-width: 400px) {
-    .timeline>li .timeline-image h4 {
-        font-size: 2vw !important;
-    }
-}
-
 @media(min-width:768px) {
     .timeline:before {
         left: 50%;
@@ -597,7 +557,7 @@ section h3.section-subheading {
     }
 }
 
-@media(min-width:992px) {
+@media(min-width:990px) {
     .timeline>li .timeline-panel {
         padding: 0 20px 20px;
     }
@@ -606,11 +566,6 @@ section h3.section-subheading {
         width: 150px;
         height: 150px;
         margin-left: -75px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 30px;
-        line-height: 26px;
     }
 
     .timeline>li .timeline-text {
@@ -625,10 +580,6 @@ section h3.section-subheading {
 }
 
 @media(min-width:1200px) {
-    .timeline>li {
-        min-height: 170px;
-    }
-
     .timeline>li .timeline-panel {
         padding: 0 20px 20px 100px;
     }
@@ -637,10 +588,6 @@ section h3.section-subheading {
         width: 170px;
         height: 170px;
         margin-left: -85px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 40px;
     }
 
     .timeline>li .timeline-text {
@@ -935,10 +882,6 @@ body {
     align-items: center;
     align-content: center;
     text-align: center;
-}
-
-.timeline>li .timeline-image h4 {
-    font-size: 3vw;
 }
 
 #portrait {
