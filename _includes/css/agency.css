@@ -779,6 +779,10 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
+.portfolio-modal .modal {
+    padding-right: 0px !important;
+}
+
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
