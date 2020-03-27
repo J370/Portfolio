@@ -1,61 +1,62 @@
 <!-- Navigation -->
-    <nav class="navbar navbar-default fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <a class="navbar-brand page-scroll" href="#page-top">
-                {% picture /img/header-sm.png --alt Jet's Logo class="lazyload" %}
-            </a>
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#award">Awards</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#skill">Skills</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll text-danger" href="//jet-blog.netlify.com/">Blog</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<nav class="navbar navbar-default fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a class="navbar-brand page-scroll" href="#page-top">
+            {% picture /img/header-sm.png --alt Jet's Logo class="lazyload" %}
+        </a>
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container meet">
-            <div class="intro-text">
-                <div class="intro-lead-in">Jet's Portfolio</div>
-                <div class="intro-heading">Nice To Meet You!</div>
-                <a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>
-            </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#award">Awards</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#skill">Skills</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a class="page-scroll text-danger" href="//jet-blog.netlify.com/">Blog</a>
+                </li>
+            </ul>
         </div>
-    </header>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header>
+    <div class="container meet">
+        <div class="intro-text">
+            <div class="intro-lead-in">Jet's Portfolio</div>
+            <div class="intro-heading">Nice To Meet You!</div>
+            <a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>
+        </div>
+    </div>
+</header>
 <!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
-
+    {% for page in site.pages %}
+      {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+    {% endfor %}
+-->
