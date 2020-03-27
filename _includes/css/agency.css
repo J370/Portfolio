@@ -13,6 +13,7 @@ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
+    font-size: 16px;
     height: 100%;
     margin: 0;
 }
@@ -329,6 +330,7 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
+    margin-top: 21px;
     margin-bottom: 75px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
