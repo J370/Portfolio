@@ -489,6 +489,9 @@ section h3.section-subheading {
 }
 
 .timeline>li .timeline-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 100;
     position: absolute;
     left: 0;
@@ -917,7 +920,7 @@ body {
     height:2em;
     line-height:2em;
     vertical-align: middle;
-    font-size: 4em;
+    font-size: 3.8em;
 }
 
 .logo i {
