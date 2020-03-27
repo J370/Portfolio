@@ -905,8 +905,6 @@ body {
 }
 
 .logo {
-    height: 120px !important;
-    width: 120px !important;
     background-color: #fed136;
     border-radius: 50%;
     display: inline-block;
@@ -915,7 +913,7 @@ body {
     height:2em;
     line-height:2em;
     vertical-align: middle;
-    font-size: 4em;
+    font-size: 6em;
 }
 
 .logo i {
