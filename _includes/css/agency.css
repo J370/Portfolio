@@ -216,7 +216,7 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.data.template.color.secondary }};
 }
 
-.navbar-default .navbar-collapse {
+.navbar-default .collapse {
     border-color: rgba(255,255,255,.02);
 }
 
