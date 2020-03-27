@@ -17,10 +17,10 @@ $(function() {
 
 $(document).on("scroll", function(){
     if($(document).scrollTop() > 100){
-        $("header").addClass("shrink");
+        $(".navbar-default").addClass("shrink");
     }
     else
     {
-        $("header").removeClass("shrink");
+        $(".navbar-default").removeClass("shrink");
     }
 });
