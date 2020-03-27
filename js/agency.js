@@ -17,7 +17,7 @@ $(function() {
 
 $(document).on("scroll", function(){
     if($(document).scrollTop() > 100){
-      $("header").addClass("shrink");
+        $("header").addClass("shrink");
     }
     else
     {
