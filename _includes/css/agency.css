@@ -184,6 +184,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #000 !important;
+    margin-bottom: 0 !important
 }
 
 .navbar-default .navbar-brand {
@@ -230,6 +231,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
+    font-size: 15px;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
