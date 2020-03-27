@@ -11,7 +11,7 @@
                 <ul class="timeline">
                     {% for award in site.awards %}
                     {% if award.title == "break" %}
-                    <li data-aos="fade-in" data-aos-anchor-placement="center-bottom">
+                    <li data-aos="fade-in" class="year" data-aos-anchor-placement="center-bottom">
                         <div class="timeline-image">
                             <h1>{{award.year}}</h1>
                         </div>
@@ -46,9 +46,9 @@
                     {% endfor %}
                     <li class="timeline-inverted" data-aos="zoom-in">
                         <div class="timeline-image">
-                            <h4>And
+                            <h3>And
                                 <br>More To
-                                <br>Come</h4>
+                                <br>Come</h3>
                         </div>
                     </li>
                 </ul>

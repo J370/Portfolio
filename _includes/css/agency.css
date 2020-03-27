@@ -453,7 +453,7 @@ section h3.section-subheading {
 .timeline>li {
     position: relative;
     /* margin-bottom: 50px; */
-    min-height: 50px;
+    min-height: 150px;
 }
 
 .timeline>li:before,
@@ -569,11 +569,6 @@ section h3.section-subheading {
         left: 50%;
     }
 
-    .timeline>li {
-        margin-bottom: 100px;
-        min-height: 100px;
-    }
-
     .timeline>li .timeline-panel {
         float: left;
         width: 41%;
@@ -603,10 +598,6 @@ section h3.section-subheading {
 }
 
 @media(min-width:992px) {
-    .timeline>li {
-        min-height: 150px;
-    }
-
     .timeline>li .timeline-panel {
         padding: 0 20px 20px;
     }
