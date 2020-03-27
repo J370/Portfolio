@@ -417,6 +417,16 @@ section h3.section-subheading {
     min-height: 150px;
 }
 
+.timeline>li .year {
+    position: relative;
+    min-height: 200px;
+}
+
+.timeline>li .last {
+    position: relative;
+    min-height: 0px;
+}
+
 .timeline>li:before,
 .timeline>li:after {
     content: " ";
