@@ -190,7 +190,6 @@ fieldset[disabled] .btn-xl.active {
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
-    z-index: 9999;
 }
 
 .navbar-default .navbar-brand {
