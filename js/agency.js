@@ -24,3 +24,7 @@ $(document).on("scroll", function(){
         $(".navbar-default").removeClass("shrink");
     }
 });
+
+$( ".page-scroll" ).click(function() {
+    $('.collapse').collapse("hide");
+  });
