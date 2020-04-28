@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include head.html %}
+{% include portfolio/head.html %}
 
 <body data-spy="scroll" data-target=".navbar" id="page-top" class="index">
 
@@ -10,24 +10,24 @@
   <noscript>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></noscript>
-  <link rel="preload" href="{{ "/style.css" | prepend: site.baseurl }}" as="style"
+  <link rel="preload" href="{{ "assets/style.css" | prepend: site.baseurl }}" as="style"
     onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}"></noscript>
+    <link rel="stylesheet" href="{{ "assets/style.css" | prepend: site.baseurl }}"></noscript>
 
   <!-- Custom Fonts -->
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&display=swap"
     as="style">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&display=swap'>
-  {% include header.html %}
-  {% include about.html %}
-  {% include portfolio_grid.html %}
-  {% include awards.html %}
-  {% include skill.html %}
-  {% include contact.html %}
-  {% include footer.html %}
-  {% include modals.html %}
-  {% include js.html %}
+  {% include portfolio/header.html %}
+  {% include portfolio/about.html %}
+  {% include portfolio/portfolio_grid.html %}
+  {% include portfolio/awards.html %}
+  {% include portfolio/skill.html %}
+  {% include portfolio/contact.html %}
+  {% include portfolio/footer.html %}
+  {% include portfolio/modals.html %}
+  {% include portfolio/js.html %}
 
 </body>
 

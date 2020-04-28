@@ -1,0 +1,3 @@
+{% include assets/agency.css %}
+{% include assets/fonts.css %}
+{{ content }}
