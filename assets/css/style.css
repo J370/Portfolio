@@ -1,3 +1,0 @@
-{% include assets/css/agency.css %}
-{% include assets/css/fonts.css %}
-{{ content }}
