@@ -624,7 +624,7 @@ section h3.section-subheading {
 section#contact {
     color: white;
     background-color: #222;
-    background-image: url('{{ site.baseurl }}assets/images/map-image.webp');
+    background-image: url('{{ site.baseurl }}/assets/images/map-image.webp');
     background-position: center;
     background-repeat: no-repeat;
   
@@ -910,7 +910,7 @@ body {
 }
 
 header {
-    background-image: url('{{ site.baseurl }}assets/images/standlean.webp');
+    background-image: url('{{ site.baseurl }}/assets/images/standlean.webp');
     background-position: center;
     background-repeat: no-repeat;
   
