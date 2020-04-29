@@ -53,7 +53,7 @@ address:
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /blog/pretty
 
 skills:
   - name: Java
@@ -308,5 +308,5 @@ kramdown:
       line_numbers: true
 
 # Language
-languages: ["en", "zh-TW"]
+languages: ["en-US", "zh-TW"]
 exclude_from_localizations: ["javascript", "images", "css", "_i18n", "_sass", "assets", "google957ac7df2ee11022.html"] 
