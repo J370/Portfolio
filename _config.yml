@@ -48,7 +48,7 @@ social:
 
 # Build settings
 markdown: kramdown
-permalink: /blog/pretty
+permalink: /blog/:categories/:year/:month/:day/:title/
 
 skills:
   - name: Java
