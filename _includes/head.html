@@ -17,5 +17,8 @@
 
 <script>
     var lang = navigator.language || navigator.userLanguage;
-    alert("Ignore me: " + lang);
+    if (["zh-TW", "zh-CN", "zh-HK", "zh-SG"].includes(lang))
+        window.location = '/zh-TW/';
+    else
+        window.location = '/';
 </script>
