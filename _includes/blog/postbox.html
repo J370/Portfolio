@@ -6,13 +6,7 @@
         <div class="maxthumb">
             <a aria-label="{{ post.url }}" href="{{ site.baseurl }}{{ post.url }}">
                 {% if post.image %}
-
-                    {% if site.lazyimages == "enabled" %}
-                        <images class="img-fluid lazyimg" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl_root }}/{{ post.image }}{% endif %}" alt="{{ post.title }}">
-                    {% else %}
-                        <images class="img-fluid" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl_root }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"> 
-                    {% endif %}
-
+                    <img class="img-fluid" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl_root }}/{{ post.image }}{% endif %}" loading="lazy" alt="{{ post.title }}">
                 {% endif %}
             </a>
         </div>

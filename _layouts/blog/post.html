@@ -52,9 +52,7 @@ post_class: post-template
 
             <!-- Post Featured Image -->
             {% if page.image %}
-            
-            <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl_root }}/{{ page.image }}{% endif %}" loading="lazy" alt="{{ page.title }}">
-
+                <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl_root }}/{{ page.image }}{% endif %}" loading="lazy" alt="{{ page.title }}">
             {% endif %}
             <!-- End Featured Image -->
 
