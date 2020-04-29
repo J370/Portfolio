@@ -1,9 +1,25 @@
+---
+---
+
+// Color
+$primary: #fed136;
+$secondary: #fec503;   
+$secondary-dark: #333;
+$muted: #555;
+
+// Font
+$primary-font: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif';
+$secondary-font: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif';
+
+// Font
+
 /*!
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-html {
+
+ html {
     height: 100%;
     margin: 0;
     background-color: #000;
@@ -12,7 +28,7 @@ html {
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #{{ site.data.template.color.secondary-dark }};
+    color: $secondary-dark;
     font-size: 16px;
     height: 100%;
     margin: 0;
@@ -31,11 +47,11 @@ body {
 }
 
 .text-muted {
-    color: #{{ site.data.template.color.muted }} !important;
+    color: $muted !important;
 }
 
 .text-primary {
-    color: #{{ site.data.template.color.primary }} !important;
+    color: $primary !important;
 }
 
 p {
@@ -56,14 +72,14 @@ a.active {
 }
 
 a {
-    color: #{{ site.data.template.color.primary }};
+    color: $primary;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: $secondary;
 }
 
 h1,
@@ -73,7 +89,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: $primary-font;
     font-weight: 700;
 }
 
@@ -82,12 +98,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: $primary;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: $primary-font;
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: $primary;
 }
 
 .btn-primary:hover,
@@ -95,9 +111,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: $primary;
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: $secondary;
 }
 
 .btn-primary:active,
@@ -121,25 +137,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    border-color: $primary;
+    background-color: $primary;
 }
 
 .btn-primary .badge {
-    color: #{{ site.data.template.color.primary }};
+    color: $primary;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: $primary;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: $primary-font;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: $primary;
 }
 
 .btn-xl:hover,
@@ -147,9 +163,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: $primary;
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: $secondary;
 }
 
 .btn-xl:active,
@@ -173,12 +189,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    border-color: $primary;
+    background-color: $primary;
 }
 
 .btn-xl .badge {
-    color: #{{ site.data.template.color.primary }};
+    color: $primary;
     background-color: #fff;
 }
 
@@ -212,7 +228,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: $secondary;
 }
 
 .navbar-default .collapse {
@@ -220,8 +236,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    border-color: $primary;
+    background-color: $primary;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -230,12 +246,12 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: $primary;
 }
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: $primary-font;
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -248,20 +264,20 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: $primary;
     text-decoration: none;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: $primary;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: $secondary;
 }
 
 header {
@@ -279,8 +295,8 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
-    color: #{{ site.data.template.color.primary }};
+    font-family: $secondary-font;
+    color: $primary;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -289,8 +305,8 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    color: #{{ site.data.template.color.primary }};
+    font-family: $primary-font;
+    color: $primary;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -310,7 +326,7 @@ section h3.section-subheading {
     margin-top: 21px;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: $secondary-font;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -389,7 +405,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: $secondary-font;
     font-size: 16px;
     font-style: italic;
 }
@@ -472,7 +488,7 @@ section h3.section-subheading {
     text-align: center;
     font-size: 1vw;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: $primary;
 }
 
 .timeline>li .timeline-text {
@@ -486,7 +502,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: $primary;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
@@ -657,34 +673,34 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: $primary;
     box-shadow: none;
 }
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: $primary-font;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: $primary-font;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: $primary-font;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: $primary-font;
     font-weight: 700;
     color: #bbb;
 }
@@ -702,7 +718,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: $primary-font;
     line-height: 40px;
 }
 
@@ -710,7 +726,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: $primary-font;
     line-height: 40px;
 }
 
@@ -736,7 +752,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: $primary;
 }
 
 .btn:focus,
@@ -772,7 +788,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: $secondary-font;
     font-size: 16px;
     font-style: italic;
 }
@@ -823,12 +839,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #{{ site.data.template.color.primary }};
+    background: $primary;
 }
 
 ::selection {
     text-shadow: none;
-    background: #{{ site.data.template.color.primary }};
+    background: $primary;
 }
 
 img::selection {
@@ -840,7 +856,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+    webkit-tap-highlight-color: $primary;
 }
 
 .wrapper {
