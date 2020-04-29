@@ -27,6 +27,13 @@
     </div>
 
     {% include blog/js.html %}
+    <script>
+        // Set the options to make LazyLoad self-initialize
+        window.lazyLoadOptions = {
+            elements_selector: ".lazy"
+            // ... more custom settings?
+        };
+    </script>
     <script async src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
 </body>
 
