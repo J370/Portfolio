@@ -1,0 +1,18 @@
+{% include css.html %}
+<link rel="preload" href="{{ site.baseurl_root }}/assets/css/screen.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/screen.css"></noscript>
+
+<link rel="preload" href="{{ site.baseurl_root }}/assets/css/main.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/main.css"></noscript>
+
+<!-- defer loading of font and font awesome -->
+<noscript id="deferred-styles">
+    <link
+        href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+</noscript>

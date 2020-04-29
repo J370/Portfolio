@@ -1,0 +1,16 @@
+{% include js.html %}
+
+<script src="{{ site.baseurl_root }}/assets/js/blog.js"></script>
+
+<!-- Lunrsearch -->
+<script src="{{site.baseurl_root}}/assets/js/lunrsearchengine.js"></script>
+
+<!-- Disqus -->
+{% if page.layout == 'post' %}
+{% if site.lang == "en" %}
+<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js" async></script>
+{% else %}
+<script id="dsq-count-scr" src="//jet-blog-tw.disqus.com/count.js" async></script>
+{% endif %}
+{% endif %}
+<!-- End Scripts ================================================== -->
