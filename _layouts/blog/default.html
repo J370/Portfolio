@@ -689,17 +689,17 @@
             color: #343a40 !important
         }
     </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150899950-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-150899950-2');
+    </script>
 </head>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150899950-2"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-150899950-2');
-</script>
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 
@@ -901,6 +901,8 @@
     <script src="{{ site.baseurl_root }}/assets/js/mediumish.js"></script>
 
     <script src="{{site.baseurl_root}}/assets/js/lunrsearchengine.js"></script>
+
+    <script src="{{site.baseurl_root}}/assets/js/lazysizes.min.js" async></script>
 
     {% if page.layout == 'post' %}
     {% if site.lang == "en" %}

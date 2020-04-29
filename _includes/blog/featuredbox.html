@@ -7,7 +7,7 @@
                 <div class="h-100">
                     <div class="wrapthumbnail">
                         <a aria-label="{{ post.url }}" href="{{ site.baseurl }}{{ post.url }}">
-                            <img class="featured-box-img-cover" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl_root }}/{{ post.image }}{% endif %}" loading="lazy" alt="{{ post.image }}">
+                            <img class="featured-box-img-cover lazyload" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl_root }}/{{ post.image }}{% endif %}" loading="lazy" alt="{{ post.image }}">
                         </a>
                     </div>
                 </div>
@@ -32,9 +32,9 @@
                                 {% if post.author %}
                                 <span class="meta-footer-thumb">
                                 {% if author.avatar %}
-                                <img class="author-thumb" src="{{site.baseurl_root}}/{{ author.avatar }}" loading="lazy" alt="{{ author.display_name }}">
+                                <img class="author-thumb lazyload" data-src="{{site.baseurl_root}}/{{ author.avatar }}" loading="lazy" alt="{{ author.display_name }}">
                                 {% else %}
-                                <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" loading="lazy" alt="{{ author.display_name }}">
+                                <img class="author-thumb lazyload" data-src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" loading="lazy" alt="{{ author.display_name }}">
                                 {% endif %}
                                 </span>
                                 <span class="author-meta">
