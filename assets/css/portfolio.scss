@@ -211,6 +211,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     display: block;
     padding: 0px;
+    width: auto;
 }
 
 .navbar-default img {
@@ -861,11 +862,6 @@ img::-moz-selection {
     background-color: #000;
     color: #fff;
     margin-bottom: -90px;
-}
-
-.push {
-    height: 100px;
-    background-color: #000;
 }
 
 .content p{

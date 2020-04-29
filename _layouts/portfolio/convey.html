@@ -4,27 +4,11 @@
 
 <body id="page-top" class="index">
   
-  <link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></noscript>
-  <link rel="preload" href="{{ site.baseurl }}/assets/css/portfolio.css" as="style"
-    onload="this.onload=null;this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/portfolio.css"></noscript>
-  <link rel="preload" href="{{ site.baseurl }}/assets/css/fonts.css" as="style"
-    onload="this.onload=null;this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fonts.css"></noscript>
-
-  <!-- Custom Fonts -->
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&display=swap"
-    as="style">
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&display=swap'>
-
+  {% include portfolio/navbar.html %}
+  {% include portfolio/header.html %}
   {% include portfolio/message.html %}
   {% include portfolio/js.html %}
+  
 </body>
 
 </html>
