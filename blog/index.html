@@ -3,7 +3,7 @@ layout: blog/default
 title: Home
 ---
 
-{% if page.url == "/blog" %}
+{% if page.url == "/blog/" %}
 
 <!-- Featured
 ================================================== -->
@@ -41,8 +41,6 @@ title: Home
     <div class="row listrecent">
 
         {% for post in paginator.posts %}
-
-        {{ post.url }}
 
         {% include blog/postbox.html %}
 
