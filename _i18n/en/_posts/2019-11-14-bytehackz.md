@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog/post
 title:  "Byte Hackz"
 author: J370
 categories: [ Portfolio 2 ]

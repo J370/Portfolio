@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog/post
 title:   "手寫練習計劃-簡介與開始"
 author: J370
 categories: [ 书法]

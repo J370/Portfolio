@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog/post
 title:  "Unvailing Singlish"
 author: J370
 categories: [ Portfolio 2 ]

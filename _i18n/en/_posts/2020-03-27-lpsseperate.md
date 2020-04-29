@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog/post
 title:  "Research into Lego part sorter"
 author: J370
 categories: [Lego Part Sorter]

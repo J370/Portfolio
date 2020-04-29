@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog/post
 title:  "Purpose of Technology"
 author: J370
 categories: [Technical]

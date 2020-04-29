@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog/post
 title:  "Reddit's database logic"
 author: J370
 categories: [Technical]

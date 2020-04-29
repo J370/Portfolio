@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog/post
 title:  "Improvements to be made"
 author: J370
 categories: [ Portfolio 2 ]
