@@ -1,5 +1,5 @@
 ---
-layout: convey
+layout: portfolio/convey
 permalink: /thanks.html
 sitemap: false
 ---
