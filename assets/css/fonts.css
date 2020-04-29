@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('{{ site.baseurl }}/fonts/icomoon.woff?u5ziv8');
+  src: url('/fonts/icomoon.woff?u5ziv8');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
