@@ -7,7 +7,7 @@
                 <div class="h-100">
                     <div class="wrapthumbnail">
                         <a aria-label="{{ post.url }}" href="{{ site.baseurl }}{{ post.url }}">
-                            {% picture lazy {% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl_root }}/{{ post.image }}{% endif %} --img class="featured-box-img-cover" --alt {{ post.img }} %}
+                            {% picture lazy {{ site.baseurl_root }}/{{ post.image }} --img class="featured-box-img-cover" --alt {{ post.img }} %}
                         </a>
                     </div>
                 </div>
