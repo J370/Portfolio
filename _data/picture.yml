@@ -1,3 +1,18 @@
 markup_presets:
   default:
     formats: [webp, original]
+    widths: [200, 400, 800, 1600]
+    link_source: true
+
+  # Here's an example of how you'd configure jekyll-picture-tag to work with
+  # something like lazyload:
+  # https://github.com/verlok/lazyload
+  lazy:
+    # data_auto gives you data-src, data-srcset, and data-sizes instead of src,
+    # srcset, and sizes:
+    markup: data_auto
+    formats: [webp, original]
+    widths: [200, 400, 800, 1600]
+    noscript: true # add a fallback image inside a <noscript> tag.
+    attributes: 
+      img: class="lazy"
