@@ -1,0 +1,32 @@
+# Main Page -----------------------------------------
+header:
+  name: Jet Ong
+  blog: Blog
+  personalSite: Personal Site
+  search: Type and enter...
+
+details:
+  name: "Jet"
+  title: "Jet's Blog"
+  description: "Robotics lover"
+
+index:
+  explore: Explore
+  featured: Featured
+  stories: All Stories
+ 
+# Pragnitation
+pag:
+  next: Next
+  prev: Prev
+
+# Posts -----------------------------------------
+post:
+  share: Share
+
+# Authors
+authors:
+  j370:
+    name: J370
+    display_name: J370
+    description: "Owner"

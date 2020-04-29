@@ -1,0 +1,32 @@
+# Main Page -----------------------------------------
+header:
+  name: 王緣傑
+  blog: 博客
+  personalSite: 私人網站
+  search: 請輸入並且確認。。。
+
+details:
+  name: "緣傑"
+  title: "緣傑的博客"
+  description: "機械人愛好者"
+
+index:
+  explore: 參觀
+  featured: 精選
+  stories: 所有的文章
+
+# Pragnitation
+pag:
+  next: 下一頁
+  prev: 上一頁
+
+# Posts -----------------------------------------
+post:
+  share: 分享
+
+# Authors
+authors:
+  j370:
+    name: J370
+    display_name: J370
+    description: "主人"
