@@ -53,7 +53,6 @@ address:
 
 # Build settings
 markdown: kramdown
-permalink: /blog/pretty
 
 skills:
   - name: Java
