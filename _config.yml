@@ -46,13 +46,9 @@ social:
   - title: instagram
     url: //www.instagram.com/j370s/
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-
 # Build settings
 markdown: kramdown
+permalink: /blog/pretty
 
 skills:
   - name: Java
@@ -307,5 +303,5 @@ kramdown:
       line_numbers: true
 
 # Language
-languages: ["en-US", "zh-TW"]
+languages: ["en", "zh-TW"]
 exclude_from_localizations: ["javascript", "images", "css", "_i18n", "_sass", "assets", "google957ac7df2ee11022.html"] 
