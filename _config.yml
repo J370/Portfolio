@@ -307,9 +307,6 @@ kramdown:
     block:
       line_numbers: true
 
-# Lazy Images ("enabled" or "disabled")
-lazyimages: "enabled"
-
 # Language
 languages: ["en", "zh-TW"]
 exclude_from_localizations: ["javascript", "images", "css", "_i18n", "_sass", "assets", "google957ac7df2ee11022.html"] 
