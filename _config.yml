@@ -303,4 +303,4 @@ kramdown:
 
 # Language
 languages: ["en", "zh-TW"]
-exclude_from_localizations: ["javascript", "images", "css", "_i18n", "_sass", "assets", "google957ac7df2ee11022.html"] 
+exclude_from_localizations: ["_data", "_i18n", "_plugins", "_sass", "assets", "google957ac7df2ee11022.html"] 
