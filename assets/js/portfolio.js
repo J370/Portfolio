@@ -21,7 +21,5 @@ $(document).on("scroll", function () {
 $(".page-scroll").click(function () {
   $(".collapse").collapse("hide");
 });
-$(document).on("load", function() {
-    //Animate on scroll
-    AOS.init();
-})
+//Animate on scroll
+AOS.init();
