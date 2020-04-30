@@ -718,9 +718,9 @@ footer {
 
 stickbot {
     position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 footer span.copyright {
@@ -864,10 +864,14 @@ img::-moz-selection {
 }
 
 .wrapper {
-    min-height: 70vh;
+    min-height: 60vh;
     text-align: center;
     background-color: #000;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .content p{
