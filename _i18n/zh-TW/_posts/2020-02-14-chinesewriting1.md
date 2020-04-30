@@ -5,6 +5,7 @@ author: J370
 categories: [ 书法]
 image:  assets/images/posts/Calligraphy/20200214/image_20200614010626.jpg
 featured: true
+hidden: true
 ---
 # TL;DR
 這是我今年剛設定的計劃，每周都會上傳和記錄這整個過程到此博客。

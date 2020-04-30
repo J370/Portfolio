@@ -1,4 +1,7 @@
-
+---
+layout: blog/post
+hidden: true
+---
 ## Title
 Part Sorter
 
