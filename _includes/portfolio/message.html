@@ -1,12 +1,10 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-        {% picture lazy assets/images/header-sm.png --alt Jet's Logo --link //jetong.me --img class="navbar-brand page-scroll"%}
+        {% picture assets/images/header-sm.png --alt Jet's Logo --link //jetong.me --img class="navbar-brand page-scroll"%}
     </div>
 </nav>
-<div class="wrapper">
-    <div class="content">
-        {{ content }}
-    </div>
+<div class="wrapper content">
+    {{ content }}
     <a class="btn btn-xl" href="{{ site.baseurl }}/">
         return
     </a>
