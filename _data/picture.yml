@@ -16,3 +16,9 @@ markup_presets:
     noscript: true # add a fallback image inside a <noscript> tag.
     attributes: 
       img: class="lazy"
+  icon:
+    base_width: 20 # How wide the 1x image should be
+    pixel_ratios: [1, 1.5, 2]
+    fallback_width: 20
+    attributes:
+      img: 'class="icon"'

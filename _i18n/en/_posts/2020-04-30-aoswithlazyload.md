@@ -7,7 +7,6 @@ image: assets/images/posts/aos+lazy.png
 featured: true
 hidden: true
 ---
-## AOS and Lazyload
 While working on [merging my websites]({{ site.baseurl }}/blog/technical/2020/04/30/blogmove/){:target="_blank"}, I started to realise that the Animate On Scroll (AOS) animations were no longer functioning so I went ahead to try and troubleshoot. Having messed around with different values, I started to realise that when I open up inspect element, the AOS worked as if nothing had happened. That was when I came across this [issue](https://github.com/michalsnik/aos/issues/336){:target="_blank"}.
 
 I tried out one of the solutions and saw this:
