@@ -3,9 +3,14 @@
 
 // Color
 $primary: #fed136;
-$secondary: #fec503;   
+$primary-dark: #222;
+$secondary: #fec503;
 $secondary-dark: #333;
+$line: #f1f1f1;
+$circle: #bbb;
 $muted: #555;
+$black: black;
+$white: white;
 
 // Font
 $primary-font: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -19,10 +24,10 @@ $secondary-font: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- html {
+html, body {
     height: 100%;
     margin: 0;
-    background-color: #000;
+    background-color: $black;
 }
 
 body {
@@ -30,12 +35,10 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $secondary-dark;
     font-size: 16px;
-    height: 100%;
-    margin: 0;
 }
 
 #award {
-    background-color: #fff
+    background-color: $white
 }
 
 #portfolio {
@@ -43,7 +46,7 @@ body {
 }
 
 #about {
-    background-color: #fed136;
+    background-color: $primary;
 }
 
 .text-muted {
@@ -102,7 +105,7 @@ h6 {
     text-transform: uppercase;
     font-family: $primary-font;
     font-weight: 700;
-    color: #fff;
+    color: $white;
     background-color: $primary;
 }
 
@@ -112,7 +115,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     border-color: $primary;
-    color: #fff;
+    color: $white;
     background-color: $secondary;
 }
 
@@ -143,7 +146,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary .badge {
     color: $primary;
-    background-color: #fff;
+    background-color: $white;
 }
 
 .btn-xl {
@@ -154,7 +157,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: $primary-font;
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: $white;
     background-color: $primary;
 }
 
@@ -164,7 +167,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border-color: $primary;
-    color: #fff;
+    color: $white;
     background-color: $secondary;
 }
 
@@ -195,12 +198,12 @@ fieldset[disabled] .btn-xl.active {
 
 .btn-xl .badge {
     color: $primary;
-    background-color: #fff;
+    background-color: $white;
 }
 
 .navbar-default {
     border-color: transparent;
-    background-color: #000 !important;
+    background-color: $black !important;
     margin-bottom: 0 !important;
     border-radius: 0%;
     transition: all 0.4s ease-in-out;
@@ -242,7 +245,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: $white;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -256,7 +259,7 @@ fieldset[disabled] .btn-xl.active {
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: $white;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -271,21 +274,21 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
+    color: $white;
     background-color: $primary;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: $white;
     background-color: $secondary;
 }
 
 header {
     text-align: center;
-    color: #fff;
+    color: $white;
     background-attachment: scroll;
-    background-color: #000;
+    background-color: $black;
     height: 100vh;
 }
 
@@ -340,7 +343,7 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
-    color: #fff;
+    color: $white;
 }
 
 #portfolio .portfolio-item {
@@ -363,7 +366,6 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
     background: rgba($primary, .9);
 }
 
@@ -379,7 +381,7 @@ section h3.section-subheading {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: $white;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -396,7 +398,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    background-color: $white;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -429,7 +431,7 @@ section h3.section-subheading {
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    background-color: $line;
 }
 
 .timeline>li {
@@ -484,11 +486,11 @@ section h3.section-subheading {
     width: 100px;
     height: 100px;
     margin-left: -10px;
-    border: 7px solid #f1f1f1;
+    border: 7px solid $line;
     border-radius: 100%;
     text-align: center;
     font-size: 1vw;
-    color: #fff;
+    color: $white;
     background-color: $primary;
 }
 
@@ -498,11 +500,11 @@ section h3.section-subheading {
     left: 0;
     width: 30px;
     height: 30px;
-    border: 5px solid #f1f1f1;
+    border: 5px solid $line;
     margin-left: 25px;
     border-radius: 100%;
     text-align: center;
-    color: #fff;
+    color: $white;
     background-color: $primary;
 }
 
@@ -639,8 +641,8 @@ section h3.section-subheading {
 }
 
 section#contact {
-    color: white;
-    background-color: #222;
+    color: $white;
+    background-color: $primary-dark;
     background-image: url('/assets/images/map-image.webp');
     background-position: center;
     background-repeat: no-repeat;
@@ -653,7 +655,7 @@ section#contact {
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: $white;
 }
 
 section#contact .form-group {
@@ -673,6 +675,10 @@ section#contact .form-group textarea.form-control {
     height: 236px;
 }
 
+section#contact .form-control {
+    font-size: 1.5rem;
+}
+
 section#contact .form-control:focus {
     border-color: $primary;
     box-shadow: none;
@@ -682,28 +688,28 @@ section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: $primary-font;
     font-weight: 700;
-    color: #bbb;
+    color: $circle;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-family: $primary-font;
     font-weight: 700;
-    color: #bbb;
+    color: $circle;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
     font-family: $primary-font;
     font-weight: 700;
-    color: #bbb;
+    color: $circle;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: $primary-font;
     font-weight: 700;
-    color: #bbb;
+    color: $circle;
 }
 
 section#contact .text-danger {
@@ -713,7 +719,7 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
-    background-color: #fff;
+    background-color: $white;
 }
 
 stickbot {
@@ -751,7 +757,7 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    background-color: #222;
+    background-color: $primary-dark;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -829,7 +835,7 @@ ul.social-buttons li a:active {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: $primary-dark;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -839,7 +845,7 @@ ul.social-buttons li a:active {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #222;
+    background-color: $primary-dark;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -866,8 +872,8 @@ img::-moz-selection {
 .wrapper {
     min-height: 60vh;
     text-align: center;
-    background-color: #000;
-    color: #fff;
+    background-color: $black;
+    color: $white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -879,7 +885,7 @@ img::-moz-selection {
 }
 
 .wrap {
-    color: white !important;
+    color: $white !important;
 }
 
 .typing {
@@ -888,7 +894,7 @@ img::-moz-selection {
 }
 
 .logo {
-    background-color: #fed136;
+    background-color: $primary;
     border-radius: 50%;
     display: inline-block;
     position: relative;
@@ -900,17 +906,17 @@ img::-moz-selection {
 }
 
 .logo i {
-    color: white;
+    color: $white;
 }
 
 .skills {
-    color: white;
+    color: $white;
 }
 
 #moreabout {
-    background-color: #fff;
-    color: #fed136;
-    border-color: #fff;
+    background-color: $white;
+    color: $primary;
+    border-color: $white;
     display: inline;
     margin: auto;
 }
@@ -991,7 +997,7 @@ animation: bounce 2s infinite;
 }
 
 .work-link {
-    color: #fff;
+    color: $white;
     font-size: xx-large;
 }
 
