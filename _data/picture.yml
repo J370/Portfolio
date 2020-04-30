@@ -17,8 +17,9 @@ markup_presets:
     attributes: 
       img: class="lazy"
   icon:
-    base_width: 50 # How wide the 1x image should be
+    formats: [webp, original]
+    base_width: 125 # How wide the 1x image should be
     pixel_ratios: [1, 1.5, 2]
-    fallback_width: 50
+    fallback_width: 150
     attributes:
       img: 'class="icon"'
