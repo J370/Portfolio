@@ -23,4 +23,6 @@ $(".page-scroll").click(function () {
 });
 //Animate on scroll
 AOS.init();
-window.addEventListener('load', AOS.refresh);
+document
+  .querySelectorAll("img")
+  .forEach((img) => img.addEventListener("load", () => AOS.refresh()));
