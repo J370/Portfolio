@@ -12,6 +12,7 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     gem 'jekyll-sitemap'
     gem 'jekyll-archives'
+    gem 'jekyll-minifier'
     gem 'jekyll-paginate'
     gem 'jekyll_picture_tag'
     gem 'jekyll-time-to-read'
