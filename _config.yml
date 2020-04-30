@@ -42,6 +42,8 @@ social:
 # Build settings
 markdown: kramdown
 permalink: /blog/:categories/:year/:month/:day/:title/
+picture:
+  - nomarkdown: false
 
 # Redirects
 netlify:
