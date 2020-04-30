@@ -290,9 +290,9 @@ authors:
 jekyll-archives:
   enabled:
     - categories
-  layout: archive
+  layout: blog/archive
   permalinks:
-    category: '/category/:name/'
+    category: 'blog/category/:name/'
     
 # Pagination 
 paginate: 6
