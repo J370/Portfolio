@@ -259,7 +259,7 @@ portfolio:
 
 # Blog ---------------------------------------
 disqus: 'jets-blog'
-include: ["_pages"]
+include: ["_pages", "_redirects"]
 
 # Authors
 authors:
