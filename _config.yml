@@ -50,6 +50,12 @@ social:
 markdown: kramdown
 permalink: /blog/:categories/:year/:month/:day/:title/
 
+# Redirects
+netlify:
+  redirects:
+    - https://j370.netlify.com/* https://jetong.me/:splat 301!
+    - /*                         /zh-TW/:splat            302   Language=zh
+
 skills:
   - name: Java
     fa: true
@@ -259,7 +265,7 @@ portfolio:
 
 # Blog ---------------------------------------
 disqus: 'jets-blog'
-include: ["_pages", "_redirects"]
+include: ["_pages"]
 
 # Authors
 authors:
