@@ -19,14 +19,6 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-multiple-languages-plugin
 
-# Google Analytics
-google_analytics: UA-150899950-1
-
-# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: "ca-pub-1832871158835645"
-adsense-data-ad-slot: "1363087678"
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: whatsapp
