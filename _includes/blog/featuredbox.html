@@ -8,7 +8,7 @@
                     <div class="wrapthumbnail">
                         <a aria-label="{{ post.url }}" href="{{ site.baseurl }}{{ post.url }}">
                             {% if post.image %}
-                                <img class="featured-box-img-cover" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl_root }}/{{ post.image }}{% endif %}" alt="{{ post.image }}">
+                                <img class="featured-box-img-cover" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl_root }}/{{ post.image }}{% endif %}" alt="{{ post.image }}">
                             {% endif %}
                         </a>
                     </div>
@@ -34,9 +34,9 @@
                                 {% if post.author %}
                                 <span class="meta-footer-thumb">
                                 {% if author.avatar %}
-                                <img class="author-thumb" data-src="{{site.baseurl_root}}/{{ author.avatar }}" alt="{{ author.display_name }}">
+                                <img class="author-thumb" src="{{site.baseurl_root}}/{{ author.avatar }}" alt="{{ author.display_name }}">
                                 {% else %}
-                                <img class="author-thumb" data-src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
+                                <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
                                 {% endif %}
                                 </span>
                                 <span class="author-meta">
