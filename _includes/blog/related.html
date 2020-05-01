@@ -1,3 +1,5 @@
+
+
 <div class="rect">
 
     {% assign maxRelated = 4 %}
@@ -21,12 +23,7 @@
 
     {% if sameTagCount >= minCommonTags %}
 
-    <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
-        <div class="rel">
-            <h5>{{ post.title }}</h5>
-            <img width="100%" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl_root }}/{{ post.image }}{% endif %}" alt="{{ post.image }}">
-        </div>
-    </a>
+    {% include blog/postbox.html %}
 
     {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
     {% if maxRelatedCounter >= maxRelated %}

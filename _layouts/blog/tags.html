@@ -12,7 +12,7 @@ permalink: /blog/tags.html
 {% for post in pages_list %}
 {% if post.title != null %}
 {% if group == null or group == post.group %}
-{% include_cached blog/postbox.html %}
+{% include blog/postbox.html %}
 {% endif %}
 {% endif %}
 {% endfor %}

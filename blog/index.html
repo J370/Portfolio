@@ -17,7 +17,7 @@ title: Home
 
         {% if post.featured == true %}
 
-            {% include_cached blog/featuredbox.html %}
+            {% include blog/featuredbox.html %}
 
         {% endif %}
 
@@ -42,7 +42,7 @@ title: Home
 
         {% for post in paginator.posts %}
 
-        {% include_cached blog/postbox.html %}
+        {% include blog/postbox.html %}
 
         {% endfor %}
 
@@ -55,7 +55,7 @@ title: Home
 <div class="bottompagination">
 <div class="pointerup"><i class="fa fa-caret-up"></i></div>
 <span class="navigation" role="navigation">
-    {% include_cached blog/pagination.html %}
+    {% include blog/pagination.html %}
 </span>
 </div>
 

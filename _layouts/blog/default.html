@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
 <html lang="{{ site.lang }}">
-{% include_cached blog/head.html %}
+{% include blog/head.html %}
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 
 <body class="{{layout}}">
-    {% include_cached blog/navbar.html %}
+    {% include blog/navbar.html %}
     <div class="site-content">
         <div class="container">
             <!-- Site Title ================================================== -->
@@ -23,11 +23,11 @@
             </div>
             <!-- End Content ================================================== -->
         </div>
-        {% include_cached blog/categories.html %}
-        {% include_cached blog/footer.html %}
+        {% include blog/categories.html %}
+        {% include blog/footer.html %}
     </div>
 
-    {% include_cached blog/js.html %}
+    {% include blog/js.html %}
     <script>
         // Set the options to make LazyLoad self-initialize
         window.lazyLoadOptions = {

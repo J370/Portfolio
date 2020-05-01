@@ -17,7 +17,6 @@ plugins:
   - jekyll-minifier
   - jekyll-archives
   - jekyll-time-to-read
-  - jekyll-include-cache
   - jekyll-last-modified-at
   - jekyll-multiple-languages-plugin
 
