@@ -44,6 +44,7 @@ markdown: kramdown
 permalink: /blog/:categories/:year/:month/:day/:title/
 picture:
   nomarkdown: false
+  fast_build: true
 
 # Redirects
 netlify:
