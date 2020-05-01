@@ -2,7 +2,8 @@
 layout: blog/post
 title:  "Purpose of Technology"
 author: J370
-categories: [Technical]
+tags: [Phylosophical]
+categories: [ School ]
 ---
 # Quote
 This is just gonna be a really quick post but I would like to share this quote from a very wise friend of mine, [Sabik]({{site.authors.Sabik.web}}){:target="_blank"}. He mentioned,

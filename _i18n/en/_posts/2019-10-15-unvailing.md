@@ -2,7 +2,8 @@
 layout: blog/post
 title:  "Unvailing Singlish"
 author: J370
-categories: [ Portfolio 2 ]
+tags: [ Portfolio 2 ]
+categories: [ School ]
 ---
 ## TL;DR
 Today, our team started on generating a rough outline for our portfolio 2 project which we called "Singlish".

@@ -2,7 +2,8 @@
 layout: blog/post
 title:  "Improvements to be made"
 author: J370
-categories: [ Portfolio 2 ]
+tags: [ Portfolio 2 ]
+categories: [ School ]
 image: assets/images/posts/board.png
 ---
 Updated sprintboard and Sprint 3 full steam ahead!

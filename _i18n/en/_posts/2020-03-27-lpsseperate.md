@@ -2,7 +2,8 @@
 layout: blog/post
 title:  "Research into Lego part sorter"
 author: J370
-categories: [Lego Part Sorter]
+tags: [Lego Part Sorter]
+categories: [ School ]
 image: https://upload.wikimedia.org/wikipedia/commons/2/24/LEGO_logo.svg
 hidden: true
 ---

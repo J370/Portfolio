@@ -192,7 +192,7 @@ portfolio:
     tools:  HTML, ASP.NET, Firebase, Python, Artificial Inteligence
     category: Web Application
     description: 7.8/10 bad game reviews are what unbiased is here to fix.
-    url: categories#Portfolio-2
+    url: tags#Portfolio-2
 
   - modal-id: 6
     title: ECycle
@@ -203,7 +203,7 @@ portfolio:
     tools:  Android Studio, Java
     category: Android Application
     description: The amount of ewaste we waste a year amounts to the entire great wall of China!
-    url: categories#Mobile-Application-Development-1
+    url: tags#Mobile-Application-Development-1
 
   - modal-id: 5
     title: Guardian 3.0
@@ -258,7 +258,7 @@ portfolio:
     tools: Android Studio, Java
     category: Android Application
     description: Ever thought that you spend too much time on your mobile devices?
-    url: categories#Portfolio-1
+    url: tags#Portfolio-1
 
 # Blog ---------------------------------------
 disqus: 'jets-blog'

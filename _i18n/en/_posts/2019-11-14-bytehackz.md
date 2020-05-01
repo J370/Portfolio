@@ -2,7 +2,8 @@
 layout: blog/post
 title:  "Byte Hackz"
 author: J370
-categories: [ Portfolio 2 ]
+tags: [ Portfolio 2 ]
+categories: [ School ]
 image: assets/images/posts/solution.png
 ---
 The day has come to present for Byte Hackz. Yet, the AI does not seem to want to grow up. As of now, the AI thinks and talks like a 2 year old child. While some of the generated texts seems understandable, it is still written in gibberish and chunks of text. However, it is quite remarkable as we only utilised roughly 2000 data points and had limited hardware capabilities.

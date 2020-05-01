@@ -2,7 +2,8 @@
 layout: blog/post
 title:  "AOS with lazyload"
 author: J370
-categories: [Technical]
+tags: [Jekyll]
+categories: [ Technical ]
 image: assets/images/posts/aos+lazy.png
 featured: true
 hidden: true

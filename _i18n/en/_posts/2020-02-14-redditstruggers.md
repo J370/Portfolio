@@ -2,7 +2,8 @@
 layout: blog/post
 title:  "Reddit's database logic"
 author: J370
-categories: [Technical]
+tags: [Reddit]
+categories: [ Technical ]
 image: https://redditupvoted.files.wordpress.com/2015/10/reddit_icon_twitter_fb.png
 ---
 Sorry for this random post but I do hope that this blog can provide information on some fustrating bugs and issues. Didn't faced any but I did have some interesting Ah Ha moments on reddit today.

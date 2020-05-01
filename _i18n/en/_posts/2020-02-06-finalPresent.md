@@ -2,8 +2,8 @@
 layout: blog/post
 title:  "Final Presentation"
 author: J370
-categories: [ Portfolio 2 ]
-image: 
+tags: [ Portfolio 2 ]
+categories: [ School ]
 ---
 The day has come for our final presentation.
 
