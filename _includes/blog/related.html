@@ -1,8 +1,5 @@
-
-
-<div class="rect">
-
-    {% assign maxRelated = 4 %}
+<div class="row listrecent">
+    {% assign maxRelated = 3 %}
     {% assign minCommonTags =  1 %}
     {% assign maxRelatedCounter = 0 %}
 
@@ -20,7 +17,6 @@
     {% endif %}
     {% endif %}
     {% endfor %}
-
     {% if sameTagCount >= minCommonTags %}
 
     {% include blog/postbox.html %}
