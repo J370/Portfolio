@@ -305,4 +305,4 @@ kramdown:
 
 # Language
 languages: ["en", "zh-TW"]
-exclude_from_localizations: ["_data", "_i18n", "_plugins", "_sass", "assets", "google957ac7df2ee11022.html"] 
+exclude_from_localizations: ["_data", "_i18n", "_plugins", "_sass", "assets", "fonts", "_config.yml", ".gitattributes", ".gitignore", "404.md", "feed.xml", "Gemfile", "google957ac7df2ee11022.html", "index.html", "LICENSE", "README.md", "thanks.md"] 
