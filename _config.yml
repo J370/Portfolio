@@ -45,7 +45,6 @@ permalink: /blog/:categories/:year/:month/:day/:title/
 picture:
   nomarkdown: false
   fast_build: true
-  disabled: development
 
 # Redirects
 netlify:
