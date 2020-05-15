@@ -2,7 +2,7 @@
 layout: blog/post
 title:  "Purpose of Technology"
 author: J370
-tags: [Phylosophical]
+tags: [Philosophical]
 categories: [ School ]
 ---
 # Quote

@@ -5,10 +5,12 @@ header:
   personalSite: 私人網站
   search: 請輸入並且確認。。。
 
+footer:
+  track: 這網站不會追蹤您。。。但其它的會。
+
 details:
   name: "緣傑"
   title: "緣傑的博客"
-  description: "機械人愛好者"
 
 index:
   explore: 參觀
@@ -23,6 +25,11 @@ pag:
 # Posts -----------------------------------------
 post:
   share: 分享
+  also: 也看
+  words:
+    lmin: 少過一分鐘
+    min: 一分鐘
+    mins: 分鐘
 
 # Authors
 authors:

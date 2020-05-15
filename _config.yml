@@ -22,22 +22,22 @@ plugins:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: whatsapp
-    url: //wa.me/19793209938
-  - title: skype
-    url: skype:jetong01?userinfo
+  - title: envelope-o
+    url: mailto:jetong@pm.me
+  - title: mastodon
+    url: //fosstodon.org/@j370
+  # - title: skype
+  #   url: skype:jetong01?userinfo
   # - title: linkedin
   #   url: //linkedin.com/in/jet-ong
   - title: github
     url: //github.com/j370
-  - title: bitbucket 
-    url: //bitbucket.org/%7Ba33d1089-188a-431d-9530-3df8cb71e7a4%7D/
-  - title: stack-overflow
-    url: //stackoverflow.com/users/6747179/j370
-  - title: reddit
-    url: //www.reddit.com/user/j370s
-  - title: instagram
-    url: //www.instagram.com/j370s/
+  # - title: bitbucket 
+  #   url: //bitbucket.org/%7Ba33d1089-188a-431d-9530-3df8cb71e7a4%7D/
+  # - title: stack-overflow
+  #   url: //stackoverflow.com/users/6747179/j370
+  # - title: reddit
+  #   url: //www.reddit.com/user/j370s
 
 # Build settings
 markdown: kramdown
@@ -45,6 +45,7 @@ permalink: /blog/:categories/:year/:month/:day/:title/
 picture:
   nomarkdown: false
   fast_build: true
+  disabled: development
 
 # Redirects
 netlify:
@@ -213,7 +214,7 @@ portfolio:
     tools:  HTML, ASP.NET, Firebase, Python, Artificial Inteligence, Lego Mindstorms, Tetrix, Raspberry Pi
     category: Robotics
     description: Smart Cities - Guardian 3.0 in Hungary
-    url: world robot olympiad (wro)/2019/12/02/wro2019.html
+    url: wro/2019/12/02/wro2019/
 
   - modal-id: 4
     title: Service Learning to CDAC @ Redhill and Chong Pang Community Club
@@ -224,7 +225,7 @@ portfolio:
     tools: Email, Cashless Payment, Social Media
     category: Service Learning
     description: As part of portfolio 2, we went to various Community Clubs to teach various technologies.
-    url: fundamentals for it professionals 2/declassified/2019/07/11/fp2a1.html
+    url: school/2019/07/11/fp2a1/
 
   - modal-id: 3
     title: Industry Engagement Talks at Google and Alibaba
@@ -235,7 +236,7 @@ portfolio:
     tools: Tensorflow, Alibaba Cloud
     category: Service Learning
     description: Learning AI from Google and startup skills from Alibaba.
-    url: fundamentals for it professionals 2/declassified/2019/07/18/fp2a2.html
+    url: school/2019/07/18/fp2a2/
 
   - modal-id: 2
     title: Guardian 2.0
@@ -246,7 +247,7 @@ portfolio:
     tools: HTML, ASP.NET, Firebase, Python, Artificial Inteligence, Lego Mindstorms, Raspberry Pi
     category: Robotics
     description: Food matters - Guardian 2.0 in Thailand
-    url: world robot olympiad (wro)/2018/10/05/wro2018.html
+    url: wro/2018/10/05/wro2018/
 
   - modal-id: 1
     title: Extreme Control

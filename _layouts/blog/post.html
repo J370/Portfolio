@@ -41,14 +41,8 @@ post_class: post-template
 
                 <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
-                <h5>{{ content | reading_time_as_i }}</h5>
+                {% include blog/readtime.html %}
             </div>
-
-            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
-            {% if site.adsense == "enabled" %}
-                {% include blog/adsense-under-header.html %}
-            {% endif %}
-            <!-- End Adsense -->
 
             <!-- Post Featured Image -->
             {% if page.image %}
@@ -135,7 +129,7 @@ post_class: post-template
             <!-- End Categories -->
 
             <hr class="relline">
-            <h1 class="related">Also Read</h1>
+            <h1 class="related">{% t post.also %}</h1>
             {% include blog/related.html %}
             <hr>
 

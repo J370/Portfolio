@@ -5,10 +5,12 @@ header:
   personalSite: Personal Site
   search: Type and enter...
 
+footer:
+  track: This site does not track you... But others do.
+
 details:
   name: "Jet"
   title: "Jet's Blog"
-  description: "Robotics lover"
 
 index:
   explore: Explore
@@ -23,6 +25,11 @@ pag:
 # Posts -----------------------------------------
 post:
   share: Share
+  also: Also Read
+  words:
+    lmin: Less than 1 minute
+    min: 1 minute
+    mins: minutes
 
 # Authors
 authors:

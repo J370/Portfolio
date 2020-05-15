@@ -1,0 +1,10 @@
+<h5>
+    {% assign words = content | number_of_words %}
+    {% if words < 180 %}
+    {% t post.words.lmin %}
+    {% elsif words < 360%}
+    {% t post.words.min %}
+    {% else %}
+    {{ words | divided_by:180 }} {% t post.words.mins %}
+    {% endif %}
+</h5>

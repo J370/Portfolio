@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('/fonts/icomoon.woff?u5ziv8');
+  src: url('/assets/fonts/icomoon.woff?xts0ez');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -59,38 +59,9 @@ span::before {
   content:"\ebca"
 }
 
-.icon-instagram:before {
-  content: "\e90c";
-}
-.icon-reddit:before {
-  content: "\e90b";
-}
-.icon-plus:before {
-  content: "\e90a";
-}
-.icon-linkedin:before {
-  content: "\e909";
-}
-.icon-close:before {
-  content: "\e908";
-}
-.icon-plus-circle:before {
-  content: "\e907";
-}
-.icon-chevron-down:before {
-  content: "\f078";
-}
-.icon-github:before {
-  content: "\f09b";
-}
-.icon-stack-overflow:before {
-  content: "\f16c";
-}
-.icon-skype:before {
-  content: "\f17e";
-}
-.icon-whatsapp:before {
-  content: "\f232";
+.icon-mastodon:before {
+  content: "\e905";
+  color: #3088d4;
 }
 .icon-javascript:before {
   content: "\e900";
@@ -112,13 +83,27 @@ span::before {
   content: "\e904";
   color: #fa7343;
 }
-.icon-bitbucket:before {
-  content: "\e905";
-  color: #0052cc;
-}
 .icon-java:before {
   content: "\e906";
   color: #007396;
+}
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-plus:before {
+  content: "\e90a";
+}
+.icon-close:before {
+  content: "\e908";
+}
+.icon-plus-circle:before {
+  content: "\e907";
+}
+.icon-chevron-down:before {
+  content: "\f078";
+}
+.icon-github:before {
+  content: "\f09b";
 }
 .icon-sphere:before {
   content: "\e9c9";
