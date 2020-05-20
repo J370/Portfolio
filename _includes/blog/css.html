@@ -1,13 +1,6 @@
 {% include css.html %}
-<link rel="preload" href="{{ site.baseurl_root }}/assets/css/screen.css" as="style"
-    onload="this.onload=null;this.rel='stylesheet'">
-<noscript>
-    <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/screen.css"></noscript>
-
-<link rel="preload" href="{{ site.baseurl_root }}/assets/css/blog.css" as="style"
-    onload="this.onload=null;this.rel='stylesheet'">
-<noscript>
-    <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/blog.css"></noscript>
+<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/screen.css" media="print" onload="this.media='all'; this.onload=null;">
+<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/blog.css" media="print" onload="this.media='all'; this.onload=null;">
 
 <!-- defer loading of font and font awesome -->
 <noscript id="deferred-styles">
