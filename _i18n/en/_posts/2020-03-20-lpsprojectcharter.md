@@ -26,11 +26,12 @@ Lastly, there are also curriculum lessons to provide teachers and instructors wi
 With addition to such curriculums, Nullspace also organises the Innovate, Design and Engineering (IDE) competition. This has attracted more than 187 teams and 561 students in 2019. There is also ThinkCrate, a mini project kit that is based on Arduino. These projects allow students to build a project with given parts by following the lessons followed by programming the necessary instructions. The required knowledge are also taught beforehand to students such that they are able to catch up and have the proper understanding of a certain concept.
 
 ## Requirements
-Administrative
+### Administrative
 
 Stability – If an object were to get stuck in the system, the system needs to do an appropriate response.
 
 Recoverability – After removing the stuck object, the system should be able to function as per normal.
+
 Redundancy – Should an object get stuck; the rest of the system should not be affected and work as per usual.
 
 Reliability – The system needs to provide high accuracy in its object recognition.
@@ -75,49 +76,28 @@ Speed – The system must perform its given task as fast as possible.
 
 As this is the first time that Nullspace is using the Agile methodology, I will be providing guidance along the course of the project based on the best of my knowledge.
 
-## Milestone Schedule 
-Milestone	Completion Date	Stakeholder	Acceptance Criteria
-Testing out of Huskylens	30 March	Edmund Koh	Software can categorise close to 200 categories and with an accuracy of ~95%.
-
-Computer vision with OpenCV	20 April	Edmund Koh	Software has the capabilities of detecting with up to 90% accuracy.
-Implementation of scanning system	24 April	Edmund Koh	Scanning system can detect with similar accuracy when standalone.
-
-Test out various separation methods	4 May	Edmund Koh	Selected method can separate items with a consistency of ~90% within a timespan of 1hr.
-
-Testing out of various sorting mechanisms	5 May	Edmund Koh	Sorting mechanism needs to take the minimum amount of time.
-Implementation of separation methods	8 May	Edmund Koh	Separation method is integrated well with the scanning system.
-Implementation of sorting mechanism	11 May	Edmund Koh	Sorting mechanism should work seamlessly with other parts of the system.
-Creating of Minimum Viable Product (MVP)	13 May	Edmund Koh	System can sort up to 30 parts every minute.
-Presentation of MVP to stakeholders	14 May	Edmund Koh	Gather 10 improvements from stakeholders to be made on MVP.
-Implement all the gathered improvements	12 June	Edmund Koh	Improvements should be implemented successfully.
-Gathering of dataset for Convoluted Neural Network (CNN) training	22 June	Edmund Koh	Each category within the dataset should have a minimum of 1000 images.
-Testing out of CNN	6 July	Edmund Koh	Selected CNN algorithm should have a 3% increase in accuracy.
-Computer vision with inclusion of CNN	13 July	Edmund Koh	Software has the capabilities of detecting with up to 95% accuracy.
-Showcase of final product	31 July	Edmund Koh	Product should be able to complete majority of user case and QA tests.
-
-8.	Gantt Chart
-Due to file size, the gantt chart is attached into a separate file within the same folder.
-9.	Risks, Assumptions, Constraints
-Risk Event 	Contingency Plan	Who Owns the Contingency Plan
-Supplier stops manufacturing due to COVID19	1.	Look for other alternatives
-2.	If 3D printing is possible, Nullspace has the capabilities	Alan Yong
-Lock down due to COVID19	1.	Work from home	Alan Yong
-Dataset gets lost	1.	Do a backup	Jet Ong
-Lack of feasible methods	1.	Looking into other alternative process that can reach the same target outcome	Ming Zhang
-Time	1.	Always update Scrum Master so a decision can be made	Edmund Koh
-
-
-10.	Resources Required
-Software
+##	Resources Required
+### Software
 Python – Programming language with supported libraries for implementation of Computer Vision (CV)
+
 OpenCV – Open sourced (CV) package to allow for image processing
+
 Anaconda Package – Provides libraries to aid in implementation of CNN
+
 Visual Paradigm – Helps visualises individual processes to be implemented
-Hardware
+
+### Hardware
+
 Camera/Huskylens/PiCam – Provide visual input for analysis
+
 Beams – Create the structure of machine
+
 Conveyor belts – Transport items
+
 Dropper – Separate items
+
 Lego EV3 – Creation of prototype
+
 Raspberry Pi – Receives visual input for further processing
+
 Arduino – Mechanical system controls

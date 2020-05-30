@@ -22,8 +22,8 @@ plugins:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: envelope-o
-    url: mailto:jetong@pm.me
+  # - title: envelope-o
+  #   url: mailto:jetong@pm.me
   - title: mastodon
     url: //fosstodon.org/@j370
   # - title: skype
@@ -43,7 +43,7 @@ social:
 markdown: kramdown
 permalink: /blog/:categories/:year/:month/:day/:title/
 picture:
-  # disabled: true
+  disabled: true
   nomarkdown: false
   fast_build: true
 
