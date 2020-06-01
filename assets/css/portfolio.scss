@@ -157,7 +157,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: $primary-font;
     font-size: 18px;
     font-weight: 700;
-    color: $white;
+    color: $black;
     background-color: $primary;
 }
 
@@ -167,7 +167,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border-color: $primary;
-    color: $white;
+    color: $black;
     background-color: $secondary;
 }
 
@@ -214,7 +214,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     display: block;
     padding: 0px;
-    width: auto;
 }
 
 .navbar-default img {
@@ -490,7 +489,6 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     font-size: 1vw;
-    color: $white;
     background-color: $primary;
 }
 
@@ -881,10 +879,6 @@ img::-moz-selection {
 
 .content p{
     font-size: 6vw;
-}
-
-.wrap {
-    color: $white !important;
 }
 
 .typing {
