@@ -1,6 +1,6 @@
 ---
 layout: blog/post
-title:  "Final Presentation"
+title: "Final Presentation"
 author: J370
 tags: [ Portfolio 2 ]
 categories: [ School ]

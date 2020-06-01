@@ -1,6 +1,6 @@
 ---
 layout: blog/post
-title:  "Unvailing Singlish"
+title: "Unvailing Singlish"
 author: J370
 tags: [ Portfolio 2 ]
 categories: [ School ]
@@ -15,7 +15,7 @@ The main purpose of this is to utilise Artificial Intelligence to help with unde
 In preperation for this, we had looked into several research papers. This one by [Timothy Tan](//towardsdatascience.com/creating-word-embeddings-for-out-of-vocabulary-oov-words-such-as-singlish-3fe33083d466) for example showcases how Out of Vocabulary (OOV) words can be taken out from a sentence. This is neccessary in ensuring that the data is cleaned and organised. For example, the word "I" is repetedly used in day to day speech and can affect the model that is trained at the end. We plan to utilise this within a web application to provide convenience for users of different platforms.
 
 ## Roles and Resposibilities
-Additionally, we also started on the roles that each of us will take up within this project. As of now, we had splitted the group into two main portions, the Front End and the Back End.
+Additionally, we also started on the roles that each of us will take up within this project. As of now, we had divided the group into two main portions, the Front End and the Back End.
 
 ![Original Scoop]({{ site.baseurl }}/assets/images/posts/originalscop.jpg)
-Original Scoop that our team had drew out on the various responsibilities. I am mainly doing the backend which comprises of the AI as well as server and databases.
+Original Scoop that our team had drawn out on the various responsibilities. I am mainly doing the backend which comprises the AI as well as server and databases.

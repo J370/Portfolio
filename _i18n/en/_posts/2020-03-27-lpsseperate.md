@@ -1,14 +1,12 @@
 ---
 layout: blog/post
-title:  "Research into Lego part sorter"
+title: "Introduction to Lego part sorter"
 author: J370
 tags: [Lego Part Sorter]
 categories: [ School ]
-image: https://upload.wikimedia.org/wikipedia/commons/2/24/LEGO_logo.svg
-hidden: true
 ---
 ## TL;DR
-This week, we are looking into the various seperation techniques that were previously listed.
+Starting work on the separation mechanism.
 
-## The mission to seperate parts
-Our main purpose is to prototype and fail as quickly as possible, giving us more time to work on the better ideas. What we hope to achieve is that at the end of this process, the system is able to reliably feed in individual parts into the scanning and recognising system.
+## Original Plan
+Earlier in our project charter, we had planned to start on the 

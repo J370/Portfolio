@@ -1,10 +1,10 @@
 ---
 layout: blog/post
-title:   "手寫練習計劃-簡介與開始"
+title: "手寫練習計劃-簡介與開始"
 author: J370
 tags: [书法]
 categories: [寫作]
-image:  assets/images/posts/Calligraphy/20200214/image_20200614010626.jpg
+image: assets/images/posts/Calligraphy/20200214/image_20200614010626.jpg
 featured: true
 hidden: true
 ---

@@ -1,12 +1,12 @@
 ---
 layout: blog/post
-title:  "Reddit's database logic"
+title: "Reddit's database logic"
 author: J370
 tags: [Reddit]
 categories: [ Technical ]
 image: https://redditupvoted.files.wordpress.com/2015/10/reddit_icon_twitter_fb.png
 ---
-Sorry for this random post but I do hope that this blog can provide information on some fustrating bugs and issues. Didn't faced any but I did have some interesting Ah Ha moments on reddit today.
+Sorry for this random post but I do hope that this blog can provide information on some fustrating bugs and issues. Didn't face any but I did have some interesting Aha moments on reddit today.
 
 ## Background
 I used to have a reddit account to check on various Linux happenings but decided to delete it after not using it for a while.
