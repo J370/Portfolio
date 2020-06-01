@@ -147,9 +147,8 @@ section.recent-posts {
     line-height: 1.25;
 }
 
-.listfeaturedtag h4.card-text,
-.listrecent h4.card-text {
-    color: rgba(0, 0, 0, .44);
+.listfeaturedtag h3.card-text,
+.listrecent h3.card-text {
     font-size: 0.95rem;
     line-height: 1.6;
     font-weight: 400;
@@ -224,11 +223,6 @@ span.post-name,
 span.post-date,
 span.author-meta {
     display: inline-block;
-}
-
-span.post-date,
-span.post-read {
-    color: rgba(0, 0, 0, .44);
 }
 
 span.post-read-more {
@@ -317,8 +311,6 @@ span.post-read-more a:hover {
     border-top: 1px solid rgba(0, 0, 0, .05) !important;
     padding-top: 15px;
     padding-bottom: 12px;
-    font-size: 0.8rem;
-    color: rgba(0, 0, 0, .44);
     margin-top: 50px;
     margin-bottom: 62px;
     position: relative;
