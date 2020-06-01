@@ -43,7 +43,7 @@ social:
 markdown: kramdown
 permalink: /blog/:categories/:year/:month/:day/:title/
 picture:
-  disabled: true
+  # disabled: true
   nomarkdown: false
   fast_build: true
 
